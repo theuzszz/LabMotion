@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1793140602016,
+      "tag": "0000_identity",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1793140662337,
+      "tag": "0001_game-records",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1793140689570,
+      "tag": "0002_teacher-review",
+      "breakpoints": true
+    }
+  ]
+}

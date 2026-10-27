@@ -1,0 +1,436 @@
+{
+  "missions": [
+    {
+      "title": "Medidas sob suspeita",
+      "short": "Medidas",
+      "subtitle": "Recupere o valor medido e sua incerteza.",
+      "fragment": "MEDIDA CONFIÁVEL",
+      "questions": [
+        {
+          "id": "1.1",
+          "label": "O valor central",
+          "prompt": "Qual média representa melhor o conjunto?",
+          "options": [
+            "4,10 cm",
+            "4,12 cm",
+            "4,14 cm",
+            "41,17 cm"
+          ],
+          "correct": 1,
+          "success": "A média usa todas as medições e fornece uma estimativa do valor central.",
+          "error": "Não escolha o menor, o maior ou a soma. Some as dez medidas e divida por dez.",
+          "hints": [
+            "Há dez medições; a média é a soma dividida por 10.",
+            "A soma é 41,17 cm. Divida por 10 e arredonde de modo coerente."
+          ]
+        },
+        {
+          "id": "1.2",
+          "label": "Erro ou incerteza?",
+          "prompt": "Por que as medidas não são idênticas?",
+          "options": [
+            "Uma leitura é verdadeira e as demais estão erradas.",
+            "Há variações fortuitas e limitações do instrumento e do procedimento.",
+            "O comprimento muda sempre que é medido.",
+            "A resolução do instrumento elimina qualquer variação."
+          ],
+          "correct": 1,
+          "success": "A dispersão das leituras ajuda a avaliar a incerteza; ela não significa automaticamente erro grosseiro.",
+          "error": "Sem conhecer o valor verdadeiro, não se calcula o erro de cada leitura. Procure a explicação que reconhece variações e limitações.",
+          "hints": [
+            "Pense no que pode variar mesmo quando o objeto permanece igual.",
+            "Repetição, resolução e procedimento afetam as leituras."
+          ]
+        },
+        {
+          "id": "1.3",
+          "label": "Tipos A e B",
+          "prompt": "Qual associação está correta?",
+          "options": [
+            "Repetição estatística → A; resolução/especificação do instrumento → B",
+            "Repetição estatística → B; resolução do instrumento → A",
+            "As duas fontes são sempre tipo A",
+            "As duas fontes são sempre tipo B"
+          ],
+          "correct": 0,
+          "success": "Tipo A depende das observações repetidas; tipo B utiliza informação externa ou instrumental.",
+          "error": "Identifique qual fonte vem da análise estatística das leituras e qual vem do instrumento.",
+          "hints": [
+            "Tipo A: avaliação estatística de observações repetidas.",
+            "Tipo B: resolução, certificado ou especificação instrumental."
+          ]
+        },
+        {
+          "id": "1.4",
+          "label": "Resultado final",
+          "prompt": "Adotando u_c = 0,01 cm para este desafio, qual escrita apresenta valor, incerteza e unidade de modo coerente?",
+          "options": [
+            "4,12 cm",
+            "(4,120 ± 0,01) cm",
+            "(4,12 ± 0,01) cm",
+            "(4,12 ± 1) cm"
+          ],
+          "correct": 2,
+          "success": "Valor central e incerteza terminam na mesma casa decimal.",
+          "error": "Inclua a incerteza, a unidade e mantenha valor e incerteza na mesma casa decimal.",
+          "hints": [
+            "Use a incerteza combinada de 0,01 cm fornecida no enunciado.",
+            "Use o formato (valor ± incerteza) unidade."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "O gráfico sabotado",
+      "short": "Gráficos",
+      "subtitle": "Reorganize e interprete uma representação corrompida.",
+      "fragment": "GRÁFICO LEGÍVEL",
+      "questions": [
+        {
+          "id": "2.1",
+          "label": "Eixos",
+          "prompt": "Para distância em função do tempo, onde ficam as variáveis?",
+          "options": [
+            "Distância no horizontal; tempo no vertical.",
+            "Tempo no horizontal; distância no vertical.",
+            "As duas no eixo horizontal.",
+            "A ordem não importa."
+          ],
+          "correct": 1,
+          "success": "O tempo é a variável independente; a distância responde ao tempo.",
+          "error": "“Distância em função do tempo” significa que o tempo organiza o eixo horizontal.",
+          "hints": [
+            "A variável independente costuma ficar no eixo x.",
+            "Leia d(t): distância depende do tempo."
+          ]
+        },
+        {
+          "id": "2.2",
+          "label": "Elementos essenciais",
+          "prompt": "Qual conjunto torna o gráfico cientificamente legível?",
+          "options": [
+            "Título e cores decorativas.",
+            "Título, grandezas, unidades, escala regular, pontos e ajuste coerente.",
+            "Apenas uma legenda e muitos efeitos visuais.",
+            "Somente a equação final."
+          ],
+          "correct": 1,
+          "success": "O gráfico precisa ser compreensível sem depender do texto ao redor.",
+          "error": "Procure o conjunto que permite identificar variáveis, unidades, dados e tendência.",
+          "hints": [
+            "Um leitor deve entender o que foi medido e em qual unidade.",
+            "Dados experimentais e linha de ajuste exercem funções diferentes."
+          ]
+        },
+        {
+          "id": "2.3",
+          "label": "Gráfico não é trajetória",
+          "prompt": "Uma curva em distância × tempo significa que o carrinho percorreu uma pista curva?",
+          "options": [
+            "Sim, a curva copia o formato da pista.",
+            "Não; representa a relação entre as grandezas.",
+            "Sim, desde que o eixo vertical seja distância.",
+            "Não; gráficos não contêm informação física."
+          ],
+          "correct": 1,
+          "success": "A forma do gráfico representa a relação entre grandezas, não o desenho do caminho.",
+          "error": "Não leia o gráfico como fotografia. Observe o que cada eixo representa.",
+          "hints": [
+            "Pergunte: o que muda quando o tempo aumenta?",
+            "A curva descreve uma relação matemática entre variáveis."
+          ]
+        },
+        {
+          "id": "2.4",
+          "label": "Ajuste",
+          "prompt": "O que deve representar a tendência dos dados?",
+          "options": [
+            "Segmentos ligando cada ponto na ordem de coleta.",
+            "Uma reta ou curva de ajuste coerente com o modelo.",
+            "Uma curva escolhida apenas por ficar bonita.",
+            "A maior distância medida."
+          ],
+          "correct": 1,
+          "success": "A linha de ajuste resume a tendência e permite interpretar parâmetros.",
+          "error": "Ligar ponto a ponto destaca oscilações; o ajuste deve expressar o modelo testado.",
+          "hints": [
+            "O objetivo é representar uma tendência, não contornar cada ponto.",
+            "O formato do ajuste deve conversar com o modelo físico."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "O carrinho constante",
+      "short": "MRU",
+      "subtitle": "Interprete o ajuste linear e seus parâmetros.",
+      "fragment": "VELOCIDADE ≈ 1,03 m/s",
+      "questions": [
+        {
+          "id": "3.1",
+          "label": "Modelo",
+          "prompt": "Os dados são compatíveis com MRU?",
+          "options": [
+            "Sim, aproximadamente, pois d varia linearmente com t.",
+            "Não, pois nenhum ponto cai exatamente na reta.",
+            "Sim, apenas porque R² tem quatro casas decimais.",
+            "Não, pois a posição inicial não é zero."
+          ],
+          "correct": 0,
+          "success": "Dados experimentais não precisam ficar exatamente sobre a reta para sustentar um modelo aproximado.",
+          "error": "Considere a tendência linear, a constância aproximada da inclinação e a natureza experimental dos dados.",
+          "hints": [
+            "No MRU, d varia linearmente com t.",
+            "Pequenas dispersões não anulam automaticamente o modelo."
+          ]
+        },
+        {
+          "id": "3.2",
+          "label": "Inclinação",
+          "prompt": "O que representa 1,03 na equação?",
+          "options": [
+            "Tempo total de 1,03 s.",
+            "Velocidade aproximada de 1,03 m/s.",
+            "Posição inicial de 1,03 m.",
+            "Aceleração de 1,03 m/s²."
+          ],
+          "correct": 1,
+          "success": "A inclinação é Δd/Δt e representa a velocidade, com unidade m/s.",
+          "error": "Calcule a unidade da inclinação: distância dividida por tempo.",
+          "hints": [
+            "Inclinação = variação vertical ÷ variação horizontal.",
+            "Em d × t, isso produz m/s."
+          ]
+        },
+        {
+          "id": "3.3",
+          "label": "Intercepto",
+          "prompt": "O que representa 0,399 m?",
+          "options": [
+            "Velocidade do carrinho.",
+            "Aceleração média.",
+            "Posição estimada para t = 0.",
+            "Erro percentual do ajuste."
+          ],
+          "correct": 2,
+          "success": "O intercepto informa onde a reta cruza o eixo da distância.",
+          "error": "Substitua t = 0 na equação do ajuste e observe o valor de d.",
+          "hints": [
+            "Intercepto é o termo independente da equação.",
+            "Em d = vt + d₀, ele corresponde a d₀."
+          ]
+        },
+        {
+          "id": "3.4",
+          "label": "R²",
+          "prompt": "R² próximo de 1 prova que o movimento é MRU?",
+          "options": [
+            "Sim; R² alto prova qualquer modelo.",
+            "Não; indica bom ajuste, mas exige coerência física e análise das condições.",
+            "Sim; unidades e incertezas deixam de importar.",
+            "Não; R² nunca tem utilidade."
+          ],
+          "correct": 1,
+          "success": "Bom ajuste estatístico apoia a análise, mas não substitui interpretação física.",
+          "error": "Um indicador estatístico não verifica sozinho unidades, condições ou mecanismo físico.",
+          "hints": [
+            "Pergunte o que R² mede — e o que ele não mede.",
+            "Ajuste estatístico e validade física são avaliações complementares."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "A curva escondida",
+      "short": "MRUV",
+      "subtitle": "Linearize os dados e encontre a aceleração.",
+      "fragment": "ACELERAÇÃO ≈ 0,40 m/s²",
+      "questions": [
+        {
+          "id": "4.1",
+          "label": "Forma original",
+          "prompt": "Qual forma se espera em d × t?",
+          "options": [
+            "Uma reta horizontal.",
+            "Uma parábola, para aceleração constante e partida do repouso.",
+            "Uma circunferência.",
+            "Uma reta de inclinação zero."
+          ],
+          "correct": 1,
+          "success": "No MRUV, a posição contém um termo proporcional a t².",
+          "error": "Considere d = d₀ + v₀t + (a/2)t² e a partida aproximadamente do repouso.",
+          "hints": [
+            "Há um termo quadrático na equação horária.",
+            "Uma grandeza proporcional a t² produz uma parábola quando colocada contra t."
+          ]
+        },
+        {
+          "id": "4.2",
+          "label": "Linearização",
+          "prompt": "Qual transformação produz uma reta?",
+          "options": [
+            "Representar d em função de t².",
+            "Representar t em função de d².",
+            "Apagar os pontos extremos.",
+            "Trocar metros por centímetros."
+          ],
+          "correct": 0,
+          "success": "A linearização transforma a relação quadrática em d = αt² + β.",
+          "error": "Procure uma nova variável que torne proporcional o termo quadrático.",
+          "hints": [
+            "Os dados já fornecem uma coluna t².",
+            "Compare d com t²: 0,20 × t² reproduz as distâncias."
+          ]
+        },
+        {
+          "id": "4.3",
+          "label": "Coeficiente",
+          "prompt": "A reta linearizada é d = 0,20t². Qual é a aceleração?",
+          "options": [
+            "0,10 m/s²",
+            "0,20 m/s²",
+            "0,40 m/s²",
+            "2,00 m/s²"
+          ],
+          "correct": 2,
+          "success": "Como d = (a/2)t², temos a/2 = 0,20 e a = 0,40 m/s².",
+          "error": "Compare o coeficiente 0,20 com a/2, não diretamente com a.",
+          "hints": [
+            "No repouso e com d₀ ≈ 0: d = (a/2)t².",
+            "Multiplique o coeficiente angular por 2."
+          ]
+        },
+        {
+          "id": "4.4",
+          "label": "Evidência",
+          "prompt": "A reta em d × t² sustenta qual conclusão?",
+          "options": [
+            "Prova absoluta de qualquer movimento.",
+            "Compatibilidade com aceleração aproximadamente constante nas condições consideradas.",
+            "Movimento circular uniforme.",
+            "Ausência total de incerteza."
+          ],
+          "correct": 1,
+          "success": "A linguagem “compatível” reconhece a força e o limite da evidência experimental.",
+          "error": "Uma reta em d × t² apoia o modelo de aceleração constante, mas não constitui prova absoluta.",
+          "hints": [
+            "Use linguagem proporcional à evidência disponível.",
+            "Considere o modelo testado e as condições do experimento."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "O parecer científico",
+      "short": "Parecer",
+      "subtitle": "Transforme resultados em uma conclusão defensável.",
+      "fragment": "EVIDÊNCIA ANTES DA CONCLUSÃO",
+      "questions": [
+        {
+          "id": "5.1",
+          "label": "Escolha da conclusão",
+          "prompt": "Qual relatório apresenta uma conclusão científica mais defensável?",
+          "options": [
+            "Relatório A",
+            "Relatório B"
+          ],
+          "correct": 1,
+          "success": "O Relatório B relaciona afirmação, evidência numérica e raciocínio; aparência não é evidência.",
+          "error": "Procure o texto que explicita dados, parâmetro, condição e linguagem proporcional à evidência.",
+          "hints": [
+            "Uma conclusão científica precisa citar evidências.",
+            "“Ficou bonito” não informa o que os dados mostram."
+          ]
+        },
+        {
+          "id": "5.2",
+          "label": "Limitação",
+          "prompt": "Registre uma limitação plausível deste experimento.",
+          "kind": "text",
+          "placeholder": "Ex.: O atrito residual pode...",
+          "success": "Registro recebido com uma condição experimental identificável. A professora avaliará se a limitação é pertinente e bem explicada.",
+          "error": "Tente citar uma condição concreta: atrito, desnível, resolução, sensores, quantidade de medidas ou erro de zero.",
+          "hints": [
+            "Observe o trilho, o instrumento e a quantidade de dados.",
+            "Exemplos aceitos incluem atrito residual e resolução do sensor."
+          ]
+        },
+        {
+          "id": "5.3",
+          "label": "CER",
+          "prompt": "Escreva uma conclusão com afirmação, evidência numérica e raciocínio físico.",
+          "kind": "text",
+          "placeholder": "Afirmação: ... Evidência: ... Raciocínio: ...",
+          "success": "Registro recebido com sinais de modelo, evidência numérica e ligação explicativa. A checagem automática é estrutural; a correção física será avaliada pela professora.",
+          "error": "Cite MRU, a inclinação 1,03 m/s ou R² = 0,9945, e explique a tendência linear usando uma ligação como “porque”. Escreva pelo menos 70 caracteres.",
+          "hints": [
+            "Use a estrutura: “Os dados são compatíveis com... porque...”",
+            "Você pode citar inclinação 1,03 m/s, tendência linear e R² = 0,9945."
+          ]
+        }
+      ]
+    }
+  ],
+  "diagnosticQuestions": [
+    {
+      "q": "Em medidas repetidas, o que sustenta a avaliação tipo A?",
+      "o": [
+        "A resolução indicada pelo fabricante",
+        "A análise estatística das observações",
+        "A unidade escolhida",
+        "O maior valor"
+      ],
+      "c": 1
+    },
+    {
+      "q": "Em distância em função do tempo, qual variável fica no eixo horizontal?",
+      "o": [
+        "Distância",
+        "Velocidade",
+        "Tempo",
+        "Aceleração"
+      ],
+      "c": 2
+    },
+    {
+      "q": "A forma de um gráfico posição × tempo desenha a trajetória do objeto?",
+      "o": [
+        "Sempre",
+        "Somente no MRU",
+        "Não; mostra a relação entre grandezas",
+        "Somente se houver curva"
+      ],
+      "c": 2
+    },
+    {
+      "q": "O que representa a inclinação em d × t no MRU?",
+      "o": [
+        "A velocidade",
+        "A aceleração",
+        "O tempo inicial",
+        "O R²"
+      ],
+      "c": 0
+    },
+    {
+      "q": "Por que representar d em função de t² no MRUV que parte do repouso?",
+      "o": [
+        "Para eliminar unidades",
+        "Para produzir uma relação linear",
+        "Para aumentar o R² automaticamente",
+        "Para desenhar a pista"
+      ],
+      "c": 1
+    },
+    {
+      "q": "R² = 0,99 é suficiente para provar um modelo físico?",
+      "o": [
+        "Sim",
+        "Não; também é necessária coerência física",
+        "Sim, se houver cinco pontos",
+        "Não; R² nunca serve"
+      ],
+      "c": 1
+    }
+  ]
+}
