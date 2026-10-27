@@ -1,0 +1,31 @@
+4 
+1 Identificação 
+Título: LabMotion — do dado à lei física. Natureza: produto educacional digital para 
+revisão de análise experimental e cinemática. Instituição: Universidade Federal do Vale do 
+São Francisco — UNIVASF. Disciplina e turma:  Física Experimental A. Docente: Profa. 
+Mariele Pinheiro. Autores: Alinne de Souza Santos Castro; Matheus Souza da Silva Leite; 
+João Charles Farias Gomes Junior; Arielly Fer reira Marques de Lima. Data desta versão: 21 
+de outubro de 2026. 
+O produto consiste em um escape room digital com cinco missões sobre medidas e 
+incertezas, gráficos científicos, Movimento Retilíneo Uniforme, Movimento Retilíneo 
+Uniformemente Variado e argu mentação. Este relatório apresenta a fundamentação, os 
+objetivos, os materiais, a construção do recurso, o procedimento de aplicação, os cálculos dos 
+desafios e a verificação técnica da versão desenvolvida. A aplicação com estudantes será 
+realizada após a avaliação da professora; por isso, a discussão dos resultados se refere ao 
+desenvolvimento e à análise do produto. 
+2 Introdução com fundamentação teórica 
+2.1 Contexto e problema educacional 
+O laboratório de Física permite relacionar modelos teóricos, proce dimentos de 
+medição e construção de explicações. Entretanto, seguir um roteiro e substituir valores em 
+equações não garante que o estudante compreenda a qualidade das medidas, o significado dos 
+gráficos ou os limites de uma conclusão. Em Física Experimenta l A, interpretar incertezas, 
+ajustar dados e reconhecer parâmetros físicos são habilidades que acompanham as práticas 
+posteriores da disciplina. 
+Essas habilidades também são relevantes para a formação em Engenharia. Decisões 
+sobre desempenho de equipamentos, controle da qualidade e acompanhamento de processos 
+dependem da leitura de dados com unidades, da avaliação da variabilidade e da escolha de 
+modelos adequados. Na Engenharia de Produção, por exemplo, gráficos de tempos de 
+operação e medidas d e um processo precisam ser interpretados antes de orientar uma 
+intervenção. Esses exemplos mostram a utilidade do raciocínio experimental além da 
+disciplina, sem pressupor que a obtenção de um número seja suficiente para justificar uma 
+decisão técnica. 

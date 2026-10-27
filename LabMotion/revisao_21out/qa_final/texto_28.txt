@@ -1,0 +1,44 @@
+28 
+Item Resposta Comentário 
+4.4 Evidência 
+B — Compatibilidade com 
+aceleração aproximadamente 
+constante nas condições 
+consideradas. 
+A conclusão precisa respeitar as hipóteses da partida do repouso 
+e do modelo aplicado. 
+ 
+Modelo de justificativa: “A representação de d em função de t² é linear para estes 
+dados didáticos. Como o coeficiente 0,20 m/s² corresponde a a/2, o modelo fornece aceleração 
+de 0,40 m/s², assumindo velocidade inicial nula.” 
+Missão 5 O parecer científico 
+Item Resposta ou critério Comentário 
+5.1 Escolha da 
+conclusão B — Relatório B. 
+Relaciona o modelo aos dados e a um parâmetro físico. A beleza 
+do gráfico não é evidência científica. Condições como 
+horizontalidade devem ser reconhecidas como hipóteses do 
+cenário didático quando não foram medidas. 
+5.2 Limitação Uma limitação plausível 
+acompanhada de seu efeito. 
+Exemplos: atrito residual pode alterar a velocidade; desnível 
+pode introduzir aceleração; resolução do sensor limita a leitura; 
+poucos dados dificultam avaliar a tendência; erro de zero afeta a 
+posição estimada. 
+5.3 CER 
+Afirmação compatível com os 
+dados, evidência numérica com 
+unidade ou indicador pertinente e 
+ligação física entre ambos. 
+A validação automática apoia o fluxo. O mediador deve analisar 
+se a evidência citada sustenta a afirmação e se o raciocínio evita 
+extrapolações. 
+ 
+Exemplo de conclusão CER: “Os dados didáticos são compatíveis com MRU no 
+intervalo apresentado. O ajuste d = 1,03t + 0,399 tem inclinação de 1,03 m/s e R² = 0,9945. A 
+relação aproximadamente linear entre posição e tempo  sustenta velocidade aproximadamente 
+constante, sem dispensar a verificação das condições e das incertezas em uma aplicação 
+experimental.” 
+Uma resposta que apenas copie palavras como “MRU” ou “linear” não basta para 
+comprovar argumentação. A avaliação da qualidade deve considerar a rubrica do Apêndice D. 
+  

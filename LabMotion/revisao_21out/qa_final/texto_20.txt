@@ -1,0 +1,26 @@
+20 
+5.4 Linearização do MRUV 
+t em s 0,00 0,50 1,00 1,50 2,00 
+t² em s² 0,00 0,25 1,00 2,25 4,00 
+x em m 0,00 0,05 0,20 0,45 0,80  
+O conjunto foi preparado para satisfazer exatamente x = 0,20t². No gráfico x em 
+função de t, a relação é parabólica; no gráfico x em função de t², a inclinação é 0,20 m/s². 
+Comparando com x = (a/2)t², obtém -se a = 2 × 0,20 = 0,40 m/s². A consistência exata é uma 
+propriedade da construção didática dos dados e não evidencia um experimento físico sem 
+incerteza. 
+ 
+Figura 7 — Relação original e linearização do conjunto idealizado de MRUV. Fonte: elaboração dos autores.  
+5.5 Verificação técnica e ajustes 
+Na inspeção do código e nos testes locais, foram identificados e corrigidos o reinício 
+indevido de missão ao voltar ao mapa, a possibilidade de acumular pontos por repetição e a 
+perda de justificativas. O diagnóstico foi rotu lado como resposta da equipe. Foram 
+acrescentados armazenamento local e exportação dos registros. 
+Verificação Evidência obtida 
+Ajuste numérico do MRU Inclinação 1,03 m/s, intercepto 0,399 m e R² 0,994469 reproduzidos 
+Validação estrutural e leitura do 
+estado salvo Dez casos automatizados passaram, além das três verificações do ajuste 
+Tipagem e construção da aplicação Verificação TypeScript e empacotamentos principal e portátil concluídos 
+Percurso no navegador As cinco missões, justificativas, debriefing e diagnóstico final foram concluídos 
+em uma sessão demonstrativa 
+Feedback e pista Uma resposta incorreta produziu explicação e permitiu correção; uma pista foi 
+exibida e registrada 

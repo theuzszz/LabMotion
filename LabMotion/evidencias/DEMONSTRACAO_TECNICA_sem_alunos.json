@@ -1,0 +1,58 @@
+{
+  "produto": "LabMotion",
+  "versao": "2.0",
+  "unidade": "equipe",
+  "dados": "Conjuntos didáticos; não representam uma aplicação real",
+  "exportadoEm": "2026-10-20T14:48:44.873Z",
+  "diagnosticoInicial": [
+    1,
+    1,
+    2,
+    0,
+    0,
+    1
+  ],
+  "diagnosticoFinal": [
+    1,
+    2,
+    2,
+    0,
+    1,
+    1
+  ],
+  "gabaritoDiagnostico": [
+    1,
+    2,
+    2,
+    0,
+    1,
+    1
+  ],
+  "indicesDasAlternativas": "Começam em zero",
+  "pontuacaoLudica": 261,
+  "maximo": 265,
+  "pistasPorMissao": [
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "justificativas": [
+    "Demonstração técnica: a média das dez leituras é 4,117 cm. O resultado arredondado deve manter unidade e casas decimais coerentes com a incerteza fornecida.",
+    "Demonstração técnica: o tempo é a variável independente e a posição é representada no eixo vertical. Grandezas, unidades, escala e ajuste tornam o gráfico interpretável.",
+    "Demonstração técnica: a relação linear tem inclinação de 1,03 m/s e intercepto de 0,399 m. A tendência é compatível com MRU, mas R² alto não substitui as condições físicas.",
+    "Demonstração técnica: os dados idealizados seguem d = 0,20t². Como o coeficiente corresponde a a/2 para partida do repouso, a aceleração é 0,40 m/s².",
+    "Demonstração técnica: a conclusão usa tendência linear e velocidade de 1,03 m/s. O modelo é compatível com os dados dentro das condições consideradas e exige discussão das limitações."
+  ],
+  "limitacao": "Demonstração técnica: o atrito residual pode alterar a velocidade ao longo do trilho.",
+  "conclusaoCER": "Demonstração técnica: os dados são compatíveis com MRU porque a tendência é linear, com inclinação de 1,03 m/s e R² = 0,9945; o modelo descreve velocidade aproximadamente constante nas condições consideradas.",
+  "debriefing": [
+    "Demonstração técnica: o tempo deve ocupar o eixo horizontal em posição em função do tempo.",
+    "",
+    "",
+    "Demonstração técnica: o ajuste estatístico não verifica sozinho as condições físicas nem todas as incertezas.",
+    ""
+  ],
+  "revisaoDocente": "Argumentos e limitações exigem avaliação humana; ganho descritivo não demonstra eficácia causal."
+}

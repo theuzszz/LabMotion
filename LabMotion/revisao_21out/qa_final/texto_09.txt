@@ -1,0 +1,38 @@
+9 
+posição é dada em metros e o tempo em seg undos. Uma posição inicial diferente de zero não 
+impede que o movimento seja uniforme. 
+No Movimento Retilíneo Uniformemente Variado, a aceleração é constante: 
+𝑥 = 𝑥0 + 𝑣0𝑡 +
+1
+2 𝑎𝑡2     (5) 
+Na Equação (5), x é a posição no instante considerado, em metros (m) ; 𝑥0 é a posição 
+inicial, em metros (m); 𝑣0 é a velocidade inicial, em metros por segundo (m/s); t é o tempo 
+transcorrido, em segundos (s); e a é a aceleração constante, em metros por segundo ao 
+quadrado (m/s²). O fator 1/2 é adimensional. Tanto 𝑣0t quanto (1/2)at² têm unidade de metro e 
+representam as contribuições para o deslocamento. 
+Se a velocidade inicial é desprezível, representar a posição em função de t² permite 
+obter uma reta com inclinação a/2. Nesse gráfico, t² tem unidade de segundo ao quadrado (s²), 
+o coeficiente angular A tem unidade de m/s² e o intercepto corresponde a 𝑥0, em metros. 
+Portanto, a = 2A, em que 2 é adimensional. Para os dados idealizados da Missão 4, 𝑥0 = 0 e 
+𝑣0 = 0; assim, x = 0,20t², com coeficiente de 0,20 m/s², e a = 0,40 m/s². A transformação não 
+é uma regra geral para qualquer MRUV: com velocidade inicial relevante, o termo 𝑣0t precisa 
+ser considerado no ajuste. 
+No método de mínimos quadrados ordinários, a reta x = At + B é escolhida para 
+minimizar a soma dos quadrados dos resíduos verticais. A aplicação pressupõe que essa forma 
+de ajuste seja adequada  aos dados; incertezas relevantes no tempo ou pesos diferentes 
+exigiriam tratamento mais específico. Neste produto o ajuste é um exemplo didático sem 
+ponderação, e não um estudo completo de incerteza de parâmetros. 
+𝐴 =
+∑ (𝑡𝑖−𝑡)(𝑥𝑖−𝑥)𝑁
+𝑖=1
+∑ (𝑡𝑖−𝑡)2𝑁
+𝑖=1
+     𝐵 = 𝑥 − 𝐴𝑡     (6) 
+Na Equação (6), A é o coeficiente angular da reta ajustada x = At + B, em m/s, e B é o 
+coeficiente linear, em metros (m). Os pares ( 𝑡𝑖, 𝑥𝑖) são os valores de tempo, em segundos (s), 
+e posição, em metros (m), da observação de í ndice i. As médias 𝑡  e 𝑥  correspondem, 
+respectivamente, aos tempos e às posições do conjunto. N é o total de pares, i varia de 1 a N e 
+∑ indica a soma sobre esses pares; N e i são adimensionais. Os desvios 𝑡𝑖 − 𝑡 e 𝑥𝑖 − 𝑥 têm 
+unidades de s e m; por  isso, a razão que determina A tem unidade m/s. O produto A 𝑡 tem 
+unidade de metro, de modo que B = 𝑥 − A 𝑡 também é uma posição. O cálculo de A exige 
+variação nos valores de tempo, para que seu denominador não seja zero. 

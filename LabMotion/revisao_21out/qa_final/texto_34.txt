@@ -1,0 +1,11 @@
+34 
+Apêndice H Dados necessários para relatar a aplicação 
+Para resultados e discussão da aplicação, registrar a data, o contexto, a quantidade de 
+participantes e equipes, o protocolo individu al ou coletivo, o tempo observado, os registros 
+completos e as intervenções. Relatar desistências, problemas de acesso e respostas ausentes. 
+Descrever os erros mais frequentes por missão e confrontar as conclusões escritas com a 
+rubrica. 
+O relatório deve separar resultados de implementação e teste técnico dos resultados de 
+uso com estudantes. Sem aplicação registrada, é possível relatar a construção do produto, a 
+coerência dos cálculos e o funcionamento testado; não é possível atribuir aumento de 
+aprendizagem, satisfação ou redução de dificuldades a uma turma. 

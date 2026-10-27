@@ -1,0 +1,50 @@
+REVISÃO VISUAL DO DOCUMENTO DO COLEGA
+Data: 21/10/2026
+Arquivo analisado: qa_colega/LabMotion_Revisao_3_ABNT.pdf e as 16 páginas PNG correspondentes.
+Método: inspeção individual das 16 imagens originais, em 1075 x 1521 pixels, com atenção às equações, definições de símbolos e Figuras 1 a 4. Nenhum arquivo do colega foi editado.
+
+CONCLUSÃO
+A composição é legível e uniforme, com seções identificáveis e figuras integradas ao texto. Os exemplos numéricos de incerteza são coerentes. Entretanto, existem falhas visuais de notação matemática, sobretudo o subscrito c ausente em três trechos, e a numeração impressa de algumas páginas exige conferência. A inspeção visual não certifica conformidade ABNT.
+
+ACHADOS QUE EXIGEM CORREÇÃO
+1. Página física 10, numeração impressa 9: aparecem quadradinhos no lugar do c subscrito de u_c em três lugares. São eles: a definição logo após a Equação (3), a forma de apresentação (x médio ± u_c) e o cálculo u_c ≈ 0,0076 m no exemplo. A própria Equação (3) aparece legível e correta. O problema é de glifo no corpo do texto, não de cálculo.
+2. Página física 9, numeração impressa 8: a barra da média nas Equações (1) e (2) aparece deslocada à direita, com aparência de x elevado a um sinal de menos, em vez de uma barra claramente sobre o x. A definição do texto usa x com barra. Padronizar a representação em matemática nativa para evitar ambiguidade. A estrutura da média e o denominador N(N−1) da incerteza-padrão da média estão legíveis.
+3. Páginas físicas 9 e 10: a contribuição tipo B no corpo parece representada por u com beta subscrito (uᵦ), enquanto na Equação (3) se usa B latino. Padronizar para u_B com o subscrito latino B por formatação matemática, sem usar caracteres Unicode aproximados.
+4. Numeração: na página física 12 aparece visualmente apenas “1”, onde a sequência indicaria 11. Na física 14 aparece “3”, onde se esperaria 13. Na física 15 aparece “4”, onde se esperaria 14. As páginas físicas 11, 13 e 16 mostram 10, 12 e 15. Conferir os campos e a exportação, pois não é possível concluir pela aparência se há sobreposição, glifo ausente ou erro de numeração. As remissões do sumário seguem a numeração prevista (por exemplo, referências em 15).
+
+ACHADOS DE ACABAMENTO
+5. Página física 13, Figura 3: o rótulo “adequada” ocupa o pequeno espaço sobre a seta entre “Verificação da resposta” e “Registro da evidência”. Fica muito próximo e parcialmente alinhado à borda do bloco da verificação. Aumentar o espaço entre os blocos ou reposicionar o rótulo para afastá-lo das bordas.
+6. Os títulos/legendas das Figuras 1 a 4 aparecem abaixo das imagens, com a fonte na linha seguinte. Isso é consistente visualmente dentro do documento, mas sua adequação deve ser conferida com a norma e o manual institucional pertinentes. Não foi realizada auditoria normativa.
+
+CONTEÚDO E ESCOPO OBSERVÁVEIS
+7. O documento se apresenta como etapa de introdução e fundamentação teórica, desde a capa e a folha de rosto. Contém introdução, objetivos, fundamentação e referências. Não é, sozinho, um projeto completo com materiais e métodos, resultados e discussão e conclusão.
+8. Páginas físicas 6, 13 e 14 declaram explicitamente que elementos ainda dependem de implementação ou que os esquemas não representam uma interface pronta. Isso é honesto para uma proposta conceitual, mas precisa ser atualizado se o objetivo for descrever o LabMotion já implementado. A Figura 4 tem a ressalva visível de que é um esquema e não uma tela implementada.
+9. A Figura 4, na página física 15, não coincide com a primeira pergunta do jogo desenvolvido anteriormente: ela pergunta a incerteza-padrão tipo A para cinco leituras hipotéticas de 1,20 a 1,24 m. O jogo anterior abre com a média de dez medidas próximas de 4,12 cm. É um exemplo ilustrativo legítimo quando identificado assim, mas não deve ser chamado de captura do produto atual.
+
+VERIFICAÇÃO DAS PARTES PEDIDAS
+Página física 5, introdução: texto legível, sem corte, com conexão explícita ao curso e ao problema de interpretação de dados. Não encontrei sobreposição. A redação permanece de proposta, com verbos no futuro.
+Página física 8, Figura 1: sequência medir, representar, modelar, interpretar e argumentar legível, alinhada e citada no parágrafo anterior. As fontes internas são pequenas em comparação ao corpo, mas permanecem discerníveis na imagem original.
+Página física 9: Equações (1) e (2) têm número à direita e explicações das variáveis. Problema da barra de média descrito no item 2.
+Página física 10: Equação (3) legível. Falhas de glifo no texto descritas nos itens 1 e 3. Exemplo numérico correto: média 1,220 m, desvio-padrão amostral ≈0,0158 m, u_A≈0,0071 m, u_B≈0,0029 m e u_c≈0,0076 m. A escrita ilustrativa (1,220 ± 0,008) m é coerente com o arredondamento adotado.
+Página física 11: Equações (4) e (5) do MRU/MRUV claras, sem corte, com variáveis e unidades explicadas. A condição de velocidade inicial aproximadamente nula está declarada antes da linearização simples.
+Página física 12: Figura 2 apresenta gráficos conceituais com eixos e unidades. O texto declara que não são medidas reais. Nenhuma inferência de aprendizagem é feita.
+Página física 14: o parágrafo que apresenta a Figura 4 está legível e declara o caráter ilustrativo.
+Página física 15: Figura 4 legível. Alternativa B (0,0071 m) corresponde a u_A da média. A alternativa A (0,016 m) representa o desvio-padrão das leituras, e o feedback distingue as grandezas. Não há resultado de turma inventado.
+Página física 16: referências completas cabem na página, sem corte ou sobreposição. O título de Klein corresponde ao DOI mostrado. A inspeção visual não revalidou cada fonte externamente nesta rodada.
+
+COBERTURA DAS 16 PÁGINAS
+1 capa: legível e sem corte.
+2 folha de rosto: legível, natureza do trabalho indicada.
+3 resumo: legível e sem alegações de eficácia.
+4 sumário: legível, hierarquia consistente.
+5 e 6 introdução: legível, escopo conceitual explícito.
+7 objetivos: legível, indicadores previstos distinguidos de resultados.
+8 fundamentação e Figura 1: legíveis.
+9 medição, Equações 1 e 2: problemas tipográficos de média/subscritos.
+10 incerteza, Equação 3 e exemplo: glifos ausentes no corpo.
+11 cinemática, Equações 4 e 5: legíveis.
+12 R² e Figura 2: legíveis; numeração a conferir.
+13 gamificação e Figura 3: pequena proximidade do rótulo à borda.
+14 argumentação e remissão à Figura 4: legíveis; numeração a conferir.
+15 Figura 4: legível e exemplo coerente; numeração a conferir.
+16 referências: legíveis e sem corte.

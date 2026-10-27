@@ -1,0 +1,6 @@
+.pptx-build/
+LabMotion/qa_*/
+**/__pycache__/
+**/node_modules/
+**/dist/
+**/portable-dist/

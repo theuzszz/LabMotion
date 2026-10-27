@@ -1,0 +1,33 @@
+21 
+Verificação Evidência obtida 
+Retorno e recarregamento Questão aceita e pontuação foram recuperadas ao retornar à missão e após 
+recarregar a página 
+Exportação Arquivo JSON foi baixado com registros da demonstração e respostas da equipe  
+A sessão no navegador foi uma demonstração técnica executada para verificar o fluxo. 
+Suas respostas foram  escolhidas para testar funções e não representam observações de uma 
+turma. A pontuação lúdica máxima é 265: dezenove desafios valem até dez pontos e cada uma 
+das cinco justificativas finais vale quinze. Um acerto após erro vale seis pontos; pistas não 
+descontam pontos. Essa regra foi mantida como organização do jogo, não como instrumento 
+validado de aprendizagem. 
+A checagem de código dos arquivos ativos foi concluída, mas a análise global do 
+template ainda aponta regras em componentes genéricos não importa dos pelo produto. Essa 
+limitação não foi tratada como aprovação integral de acessibilidade. O armazenamento 
+depende das permissões do navegador e pode ser apagado ao limpar os dados; o arquivo 
+exportado deve ser guardado antes de reiniciar. A verificação s e refere à versão local 
+entregue, e não comprova atualização do endereço hospedado anteriormente. 
+5.6 Discussão pedagógica e limites 
+Os desafios apresentam correspondência entre objetivo e ação solicitada: a média 
+exige considerar todas as leituras; o gráf ico exige identificar grandezas e unidades; o MRU 
+exige interpretar parâmetros; o MRUV exige relacionar coeficiente e aceleração; e o parecer 
+final exige conectar evidência e modelo. Essa correspondência responde à recomendação de 
+alinhamento encontrada em  Veldkamp et al. (2020). Em uma resposta sobre MRU, por 
+exemplo, a equipe precisa relacionar a inclinação de 1,03 m/s ao aumento da posição por 
+unidade de tempo. Na conclusão, deve explicar por que a tendência linear sustenta a 
+compatibilidade com velocida de aproximadamente constante, preservando os limites dos 
+dados. Assim, a argumentação utiliza o resultado das missões anteriores em vez de se reduzir 
+a uma opinião sobre o jogo. 
+As alternativas e pistas tornam a atividade próxima de uma investigação guiada . A 
+contribuição para a autonomia dependerá de como o mediador conduz as discussões. A 
+validação automática das respostas abertas verifica sinais textuais e extensão; ela pode aceitar 
+uma frase fisicamente incorreta ou rejeitar uma explicação válida formul ada de outro modo. 
+Por isso, o aviso na interface e a rubrica reservam à docente a avaliação conceitual. 

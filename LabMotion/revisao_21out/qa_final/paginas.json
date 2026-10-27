@@ -1,0 +1,172 @@
+[
+  {
+    "pagina": 1,
+    "caracteres": 417,
+    "inicio": "UNIVERSIDADE FEDERAL DO VALE DO SÃO FRANCISCO  UNIVASF  Alinne de Souza Santos Castro  Matheus Souza da Silva Leite  Joã"
+  },
+  {
+    "pagina": 2,
+    "caracteres": 1465,
+    "inicio": "2  RESUMO  Este trabalho apresenta o desenvolvimento do LabMotion, um escape room educacional  digital voltado à revisão"
+  },
+  {
+    "pagina": 3,
+    "caracteres": 1808,
+    "inicio": "3  SUMÁRIO  1 Identificação ............................................................................................"
+  },
+  {
+    "pagina": 4,
+    "caracteres": 2225,
+    "inicio": "4  1 Identificação  Título: LabMotion — do dado à lei física. Natureza: produto educacional digital para  revisão de aná"
+  },
+  {
+    "pagina": 5,
+    "caracteres": 2554,
+    "inicio": "5  Historicamente, parte do trabalho de laboratório foi organizada como verificação de  leis já apresentadas em aula. Tr"
+  },
+  {
+    "pagina": 6,
+    "caracteres": 2101,
+    "inicio": "6  feedbacks permitem revisá -las e a discussão final  retoma o raciocínio empregado. A atuação  do professor permanece "
+  },
+  {
+    "pagina": 7,
+    "caracteres": 2265,
+    "inicio": "7  ∑ indica a soma das observações  nesse intervalo. N e i são contagens adimensionais; 𝑥 e 𝑥𝑖  têm a mesma unidade da g"
+  },
+  {
+    "pagina": 8,
+    "caracteres": 2442,
+    "inicio": "8  medida; 12 é um fator adimensional decorrente do modelo retangular. Outra informação  instrumental pode exigir outro "
+  },
+  {
+    "pagina": 9,
+    "caracteres": 2416,
+    "inicio": "9  posição é dada em metros e o tempo em seg undos. Uma posição inicial diferente de zero não  impede que o movimento se"
+  },
+  {
+    "pagina": 10,
+    "caracteres": 2517,
+    "inicio": "10  𝑅2 = 1 − ∑ (𝑥𝑖−𝑥̂𝑖)2𝑁 𝑖=1 ∑ (𝑥𝑖−𝑥)2𝑁 𝑖=1      (7)  Na Equação (7), R² é o coeficiente de determinação, adimensional."
+  },
+  {
+    "pagina": 11,
+    "caracteres": 1787,
+    "inicio": "11  origem ou validação específica da rubrica do jogo. A verificação  automática de texto apenas  identifica elementos e"
+  },
+  {
+    "pagina": 12,
+    "caracteres": 2201,
+    "inicio": "12  sessão por equipe. Um diagnóstico individual, quando desejado, deve ser aplicado em folha  ou formulário separado, c"
+  },
+  {
+    "pagina": 13,
+    "caracteres": 765,
+    "inicio": "13  Na revisão técnica foram corrigidos problemas de repetição da pontuação e perda de  registros. O progresso passou a "
+  },
+  {
+    "pagina": 14,
+    "caracteres": 248,
+    "inicio": "14    Figura 3 — Mapa das cinco missões e progressão do relatório. Fonte: captura da versão local do LabMotion.   A resp"
+  },
+  {
+    "pagina": 15,
+    "caracteres": 240,
+    "inicio": "15    Figura 4 — Feedback da missão de medidas após uma resposta incorreta. Fonte: demonstração técnica do  LabMotion.  "
+  },
+  {
+    "pagina": 16,
+    "caracteres": 1194,
+    "inicio": "16    Figura 5 — Missão sobre MRU com dados e interpretação do ajuste. Fonte: captura da versão local do  LabMotion.  4."
+  },
+  {
+    "pagina": 17,
+    "caracteres": 2459,
+    "inicio": "17  Missão Conteúdo Produção solicitada  3 O carrinho constante MRU, inclinação, intercepto e R² Interpretação dos parâm"
+  },
+  {
+    "pagina": 18,
+    "caracteres": 2219,
+    "inicio": "18  4.8 Critérios de verificação técnica  Foram definidos como critérios: consistência dos dados e gabaritos; sequência "
+  },
+  {
+    "pagina": 19,
+    "caracteres": 1114,
+    "inicio": "19  5.3 Ajuste e interpretação do MRU  t em s 0,10 0,20 0,30 0,40 0,50  x em m 0,51 0,59 0,72 0,80 0,92  Valor ajustado "
+  },
+  {
+    "pagina": 20,
+    "caracteres": 1572,
+    "inicio": "20  5.4 Linearização do MRUV  t em s 0,00 0,50 1,00 1,50 2,00  t² em s² 0,00 0,25 1,00 2,25 4,00  x em m 0,00 0,05 0,20 "
+  },
+  {
+    "pagina": 21,
+    "caracteres": 2537,
+    "inicio": "21  Verificação Evidência obtida  Retorno e recarregamento Questão aceita e pontuação foram recuperadas ao retornar à mi"
+  },
+  {
+    "pagina": 22,
+    "caracteres": 1804,
+    "inicio": "22  Até esta versão, não houve aplicação com estudantes, coleta de pré e pós-testes de uma  turma ou questionário de exp"
+  },
+  {
+    "pagina": 23,
+    "caracteres": 3612,
+    "inicio": "23  7 Bibliografia  AMERICAN ASSOCIATION OF PHYSICS TEACHERS. AAPT Recommendations for the  Undergraduate Physics Labora"
+  },
+  {
+    "pagina": 24,
+    "caracteres": 2632,
+    "inicio": "24  Apêndice A Roteiro de aplicação  O LabMotion é uma aplicação web de revisão de Física Experimental A. A narrativa  o"
+  },
+  {
+    "pagina": 25,
+    "caracteres": 1839,
+    "inicio": "25  Unidade de análise do diagnóstico  No protocolo com um dispositivo por equipe, o diagnóstico registrado dentro do jo"
+  },
+  {
+    "pagina": 26,
+    "caracteres": 2724,
+    "inicio": "26  Apêndice B Gabarito comentado das missões  As letras correspondem à ordem das alternativas do produto. Nas questões "
+  },
+  {
+    "pagina": 27,
+    "caracteres": 2320,
+    "inicio": "27  Modelo de justificativa: “Ao representar distância em função do tempo, o eixo  horizontal deve mostrar t em segundos"
+  },
+  {
+    "pagina": 28,
+    "caracteres": 1893,
+    "inicio": "28  Item Resposta Comentário  4.4 Evidência  B — Compatibilidade com  aceleração aproximadamente  constante nas condiçõe"
+  },
+  {
+    "pagina": 29,
+    "caracteres": 2776,
+    "inicio": "29  Apêndice C Diagnóstico e pós-teste  Usar os mesmos itens nos dois momentos, preservando a ordem e o protocolo de  re"
+  },
+  {
+    "pagina": 30,
+    "caracteres": 1582,
+    "inicio": "30  Apêndice D Rubrica de análise docente  A rubrica complementa o diagnóstico de seis itens. Deve ser aplicada aos regi"
+  },
+  {
+    "pagina": 31,
+    "caracteres": 912,
+    "inicio": "31  Apêndice E Folha de registro da equipe  Código da equipe: __________   Data: __________   Turma: __________  Quantid"
+  },
+  {
+    "pagina": 32,
+    "caracteres": 1394,
+    "inicio": "32  Apêndice F Questionário complementar de experiência  Aplicar em folha ou formulário separado. O questionário foi org"
+  },
+  {
+    "pagina": 33,
+    "caracteres": 1331,
+    "inicio": "33  Apêndice G Registros e privacidade  Informar aos participantes a finalidade pedagógica dos registros, quem poderá ac"
+  },
+  {
+    "pagina": 34,
+    "caracteres": 768,
+    "inicio": "34  Apêndice H Dados necessários para relatar a aplicação  Para resultados e discussão da aplicação, registrar a data, o"
+  }
+]

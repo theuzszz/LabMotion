@@ -1,0 +1,39 @@
+29 
+Apêndice C Diagnóstico e pós-teste 
+Usar os mesmos itens nos dois momentos, preservando a ordem e o protocolo de 
+resposta. Cada acerto vale um ponto e cada erro vale zero: total de 0 a 6. As justificativas  
+complementares podem ser analisadas pelo mediador, mas não modificam a escala automática 
+sem declaração expressa de outro procedimento. 
+1. Em medidas repetidas, o que sustenta a avaliação tipo A?  A) A resolução indicada 
+pelo fabricante. B) A análise estat ística das observações. C) A unidade escolhida. D) O 
+maior valor. Gabarito B.  A avaliação tipo A se apoia na análise estatística; não se 
+confunde com a especificação instrumental. 
+2. Em distância em função do tempo, qual variável fica no eixo horizontal?  A) 
+Distância. B) Velocidade. C) Tempo. D) Aceleração. Gabarito C.  O eixo horizontal 
+representa a variável independente t. 
+3. A forma de um gráfico posição × tempo desenha a trajetória do objeto?  A) Sempre. 
+B) Somente no MRU. C) Não; mostra a relação entre grandezas. D) Somente se houver 
+curva. Gabarito C. A relação entre eixos não é uma imagem do caminho espacial. 
+4. O que representa a inclinação em d × t no MRU? A) A velocidade. B) A aceleração. C) 
+O tempo inicial. D) O R². Gabarito A.  A razão entre variação da posição e do tempo 
+corresponde à velocidade no modelo. 
+5. Por que representar d em função de t² no MRUV que parte do repouso?  A) Para 
+eliminar unidades. B) Para produzir uma relação linear. C) Para aumentar o R² 
+automaticamente. D) Para desenhar a pista. Gabarito B. O procedimento lineariza o caso 
+de partida do repouso considerado no jogo. 
+6. R² = 0,99 é suficiente para provar u m modelo físico?  A) Sim. B) Não; também é 
+necessária coerência física. C) Sim, se houver cinco pontos. D) Não; R² nunca serve. 
+Gabarito B. O indicador estatístico tem utilidade, mas não determina sozinho a validade 
+do modelo. 
+O ganho bruto é a pontuação do  pós-teste menos a do pré -teste, entre −6 e +6. Um 
+ganho positivo descreve uma diferença entre os momentos; não demonstra causalidade nem 
+eficácia geral do produto. Repetição dos itens, discussão em equipe, mediação docente e 
+familiarização com o conteúdo podem influenciar o resultado. Informar o número de respostas 
+emparelhadas e não incluir ausências como pontuação zero. 
+A pontuação lúdica é separada do diagnóstico: são 19 desafios, com dez pontos 
+quando resolvidos antes de um erro e seis pontos quando re solvidos após uma resposta 
+incorreta. Cada uma das cinco justificativas de missão concluídas acrescenta 15 pontos. O 
+máximo é 265 pontos. As pistas são limitadas a duas por missão e não retiram pontos. A 
+pontuação das justificativas indica que o registro f oi preenchido; sua qualidade conceitual 
+continua sendo apreciada pelo mediador. 
+  

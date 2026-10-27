@@ -1,0 +1,34 @@
+7 
+∑ indica a soma das observações  nesse intervalo. N e i são contagens adimensionais; 𝑥 e 𝑥𝑖 
+têm a mesma unidade da grandeza medida, como centímetro (cm) ou metro (m) para 
+comprimento. 
+A incerteza-padrão do tipo A associada à média pode ser calculada por: 
+𝑢𝐴(𝑥) = √
+∑ (𝑥𝑖−𝑥)2𝑁
+𝑖=1
+𝑁(𝑁−1)      (2) 
+Na Equação (2), 𝑢A(𝑥) é a incerteza -padrão do tipo A associada à média 𝑥. Cada 𝑥𝑖 
+representa uma leitura, i é o índice de 1 a N e N é o total de leituras, com N ≥ 2. A diferença 
+𝑥𝑖 − 𝑥 é o desvio de uma leitura em relação à média; ∑ reú ne os quadrados desses desvios. O 
+numerador tem a unidade da grandeza ao quadrado, o denominador N(N − 1) é adimensional 
+e a raiz quadrada faz 𝑢A ter a mesma unidade de 𝑥𝑖 e 𝑥. Essa estimativa corresponde ao 
+desvio-padrão amostral dividido por √N, sob as hipóteses de observações independentes e 
+condições comparáveis de medição. 
+Quando as contribuições do tipo A e do tipo B são independentes e estão expressas 
+como incertezas-padrão para a mesma grandeza, com coeficientes de sensibilidade unitários, 
+utiliza-se: 
+𝑢𝑐 = √𝑢𝐴2 + 𝑢𝐵2     (3) 
+Na Equação (3), 𝑢c  é a incerteza -padrão combinada, 𝑢A  é a contribuição avaliada 
+estatisticamente e 𝑢B é a contribuição avaliada por outras informações, como resolução ou 
+calibração do instrumento. As três têm a mesma unidade da grandeza de interesse. Os 
+quadrados expressam a combinação das variâncias e a raiz devolve a unidade original. O 
+resultado 𝑥 ± 𝑢c informa uma incerteza -padrão combinada; não especifica, por si só, uma 
+probabilidade fixa de cobertura, como 95%. 
+O resultado deve informar unidade e coerência entre as casas decimais do valor central 
+e da incerteza. Precisão, exatidão, erro e incerteza não são sinônimos: medidas próximas entre 
+si podem apresentar um desvio sistemático, e dispersão não demonstra, isoladamente, um erro 
+grosseiro. A Missão 1 trabalha essas distinções e a escrita do resultado, sem exigir uma 
+estimativa instrumental universal a partir apenas da resolução. 
+Uma resolução digital Δ, modelada como arredondamento uniforme no intervalo de 
+−Δ/2 a +Δ/2, contribui com 𝑢B = Δ/√12. Nessa expressão, Δ é o incremento de indicação do 
+instrumento e 𝑢B é a incerteza -padrão dessa contribuiç ão, ambos na unidade da grandeza 

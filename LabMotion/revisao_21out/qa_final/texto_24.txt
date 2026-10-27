@@ -1,0 +1,39 @@
+24 
+Apêndice A Roteiro de aplicação 
+O LabMotion é uma aplicação web de revisão de Física Experimental A. A narrativa 
+organiza cinco missões sequenciais sobre medidas, gráficos, MRU, MRUV e argumentação 
+científica. Os dados apresentados nos desafios são conjuntos didáticos; respostas dadas 
+durante uma demonstração técnica não constituem resultados de aprendizagem de uma turma. 
+Preparação 
+Antes da aula, o mediador deve abrir o arquivo LabMot ion.html da pasta jogo_portatil 
+em cada dispositivo, conferir legibilidade e acesso, testar o fluxo completo e disponibilizar 
+uma folha de registro por equipe. O HTML incorpora o jogo e a fonte e dispensa autenticação 
+e internet. Restrições de armazenament o e download dependem do navegador; por isso, o 
+arquivo deve ser conferido no computador da apresentação. O endereço hospedado 
+anteriormente é opcional e pode exigir autenticação da conta proprietária. 
+São necessários um computador ou celular por equipe, c onexão adequada ao modo de 
+acesso escolhido, lápis e folha de registro, calculadora simples para conferir as médias e um 
+projetor para o debriefing coletivo, quando disponível. O mediador deve conhecer o gabarito e 
+distinguir um auxílio de navegação de uma pista conceitual. 
+Formar equipes de três ou quatro participantes. Essa organização da atividade é 
+distinta do número de autores permitido no projeto da disciplina. Distribuir os papéis de 
+conferência dos dados, análise das representações, relato e navegaç ão; em equipes de três, o 
+relator também pode exercer a navegação. Alternar os papéis entre missões para reduzir a 
+concentração da participação. 
+Sessão de 60 minutos 
+Etapa Tempo Procedimento 
+Apresentação e regras 5 min Explicar objetivos, narrativa, colaboração, pistas e registro. Informar 
+como os registros serão utilizados. 
+Diagnóstico inicial 7 min Responder às seis questões sem consultar o gabarito. Usar o protocolo 
+individual ou coletivo descrito abaixo. 
+Cinco missões 35 min Discutir as alternativas, verificar respostas, ler feedback, usar até duas 
+pistas por missão e registrar uma justificativa ao final de cada etapa. 
+Debriefing 8 min Retomar ao menos duas perguntas, comparar interpretações e explicar 
+um erro que levou à revisão de uma hipótese. 
+Pós-teste e encerramento 5 min 
+Responder novamente aos seis itens e registrar a comparação. O 
+questionário de experiência pode ser aplicado após a sessão para 
+preservar o tempo.  
+O tempo de 35 minutos de jogo é uma estimativa de planejamento. Sua adequação 
+precisa ser observada na aplicação; não deve ser apresentada como tempo médio medido sem 
+registros reais. 

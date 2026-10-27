@@ -1,0 +1,66 @@
+26 
+Apêndice B Gabarito comentado das missões 
+As letras correspondem à ordem das alternativas do produto. Nas questões abertas, os  
+exemplos seguintes são modelos de resposta para a análise docente, e não respostas únicas 
+obrigatórias. 
+Missão 1 Medidas sob suspeita 
+Dados de comprimento em centímetros: 4,11; 4,13; 4,12; 4,11; 4,11; 4,14; 4,12; 4,11; 
+4,10; 4,12. A resolução informada do instrumento digital é 0,01 cm. 
+Item Resposta Comentário 
+1.1 O valor 
+central B — 4,12 cm 
+A soma é 41,17 cm e a média não arredondada é 4,117 cm. 
+Arredondada ao centésimo, resulta em 4,12 cm. Escolher apenas 
+um extremo ou usar a soma como média é inadequado. 
+1.2 Erro ou 
+incerteza 
+B — Há variações fortuitas e 
+limitações do instrumento e do 
+procedimento. 
+Leituras diferentes não significam, por si só, erro grosseiro. A 
+dispersão pode ser analisada estatisticamente. 
+1.3 Tipos A e B 
+A — Repetição estatística → A; 
+resolução ou especificação 
+instrumental → B. 
+A distinção se refere ao método de avaliação da incerteza. 
+Informações instrumentais precisam ser interpretadas segundo o 
+modelo adotado; resolução não é automaticamente uma 
+incerteza-padrão. 
+1.4 Resultado 
+final C — (4,12 ± 0,01) cm 
+O item verifica a presença de unidade e a coerência da casa 
+decimal. A incerteza usada nesse exemplo deve ser 
+explicitamente fornecida segundo a convenção da disciplina; 
+não é uma dedução completa a partir da resolução.  
+Modelo de justificativa: “A média das dez leituras é 4,117 cm. A escrita do resultado 
+deve indicar a unidade e uma incerteza definida pelo procedimento, com casas decimais 
+coerentes.” 
+Missão 2 O gráfico sabotado 
+O gráfico apresentado contém eixos inadequados ao e nunciado, unidades ausentes, 
+escala irregular e segmentos ligando ponto a ponto. A atividade exige reconhecer os 
+elementos da representação, não construir um gráfico livre dentro da aplicação. 
+Item Resposta Comentário 
+2.1 Eixos B — Tempo no horizontal e 
+distância no vertical. 
+Em distância em função do tempo, t organiza o eixo horizontal e 
+d ocupa o vertical. 
+2.2 Elementos 
+essenciais 
+B — Título, grandezas, unidades, 
+escala regular, pontos e ajuste 
+coerente. 
+A representação deve permitir identificar as grandezas e analisar 
+a tendência dos dados. O ajuste só deve ser incluído quando 
+pertinente ao objetivo e ao modelo estudado. 
+2.3 Gráfico não 
+é trajetória 
+B — Não; representa a relação entre 
+grandezas. 
+A curva de posição ou distância em função do tempo não 
+desenha o caminho espacial do objeto. 
+2.4 Ajuste B — Uma reta ou curva de ajuste 
+coerente com o modelo. 
+Ligar os pontos pode mostrar a sequência das observações, mas 
+não substitui o ajuste usado para estimar os parâmetros do 
+modelo.  

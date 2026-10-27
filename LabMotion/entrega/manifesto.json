@@ -1,0 +1,56 @@
+{
+  "data": "2026-10-20",
+  "paginas_relatorio": 27,
+  "slides": 10,
+  "figuras_relatorio": 7,
+  "equacoes": 7,
+  "aplicacao_com_estudantes": "ainda não realizada",
+  "verificacao": "cálculos, tipagem, builds e percurso técnico no navegador",
+  "arquivos": [
+    {
+      "arquivo": "jogo_portatil/Abrir LabMotion.cmd",
+      "bytes": 45,
+      "sha256": "a8a365d01cec366825682ddf8db89beef4695dc7061d21ee81f9207935c19e1d"
+    },
+    {
+      "arquivo": "jogo_portatil/LabMotion.html",
+      "bytes": 542070,
+      "sha256": "9985a811f19bf530ecbdc2bb11bec974714eb2d784e5e907b2d32ef432f13be9"
+    },
+    {
+      "arquivo": "jogo_portatil/LEIA-ME.md",
+      "bytes": 1405,
+      "sha256": "36f6d8b2fa9619135cffbf25c41213fc7a9fc2108a87290aa1f9b8f26239776a"
+    },
+    {
+      "arquivo": "jogo_portatil/LICENCA_FONTE_FREDOKA.txt",
+      "bytes": 4388,
+      "sha256": "5c9e7eee5c6b25f4b05b8d53b2e470ea4962f9ced742d044a98f7d95d1375bab"
+    },
+    {
+      "arquivo": "LabMotion_Apresentacao.pptx",
+      "bytes": 278621,
+      "sha256": "c34aae9cd901d5f33155264263a757b213a295b8ab6a71a5272230b6c1d3fc8c"
+    },
+    {
+      "arquivo": "LabMotion_Projeto_Completo.docx",
+      "bytes": 510245,
+      "sha256": "c25fe74883d01d4ceb0639ed2a4f1c07213a6d0e81d27d3f8307518757a1b799"
+    },
+    {
+      "arquivo": "LabMotion_Projeto_Completo.pdf",
+      "bytes": 1774595,
+      "sha256": "2fbd3ff680f53cfe0e732304170545ca64a7fd6f9f1e7ffdd69a929b12a6a7c2"
+    },
+    {
+      "arquivo": "LEIA_PRIMEIRO.md",
+      "bytes": 2772,
+      "sha256": "1c5889e408febfa09975ba9bf5193e6d0039ed4bd7108e5a2b4c3e290a6fbc2c"
+    },
+    {
+      "arquivo": "Roteiro_Apresentacao.md",
+      "bytes": 6929,
+      "sha256": "ad5c98d5ba7c402ed29d149f4066588af2993b8fa0d194f08b72a6fd6bd8f2cb"
+    }
+  ]
+}

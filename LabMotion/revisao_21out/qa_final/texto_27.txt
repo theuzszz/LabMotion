@@ -1,0 +1,51 @@
+27 
+Modelo de justificativa: “Ao representar distância em função do tempo, o eixo 
+horizontal deve mostrar t em segundos e o vertical d em metros. O ajuste deve representar a 
+relação física estudada; a aparência da curva não corresponde ao desenho da pista.” 
+Missão 3 O carrinho constante 
+t em s 0,10 0,20 0,30 0,40 0,50 
+d em m 0,51 0,59 0,72 0,80 0,92  
+O ajuste fornecido é d = 1,03t + 0,399, com R² = 0,9945. A posição inicial é 
+interpretada em relação à origem e à referência adotadas para os dados do exemplo. 
+Item Resposta Comentário 
+3.1 Modelo A — Sim, aproximadamente, pois d 
+varia linearmente com t. 
+A tendência é compatível com velocidade aproximadamente 
+constante, sob as hipóteses do exemplo. A dispersão não precisa 
+ser nula. 
+3.2 Inclinação B — Velocidade aproximada de 
+1,03 m/s. 
+A inclinação em d × t tem unidade de comprimento dividido por 
+tempo. 
+3.3 Intercepto C — Posição estimada para t = 0. 
+Substituir t = 0 no modelo fornece 0,399 m. Como o primeiro 
+tempo tabelado é 0,10 s, o valor em zero é uma estimativa do 
+modelo. 
+3.4 R² 
+B — Não; indica bom ajuste, mas 
+exige coerência física e análise das 
+condições. 
+R² não verifica as unidades, a calibração, as incertezas ou as 
+condições do movimento. 
+ 
+Modelo de justificativa: “A tendência aproximadamente linear de d em função de t é 
+compatível com MRU no intervalo considerado. A inclinação indica 1,03 m/s e o intercepto 
+estima a posição no instante zero; o R² elevado deve ser interpretado juntamente com as 
+condições físicas.” 
+Missão 4 A curva escondida 
+t em s 0,00 0,50 1,00 1,50 2,00 
+t² em s² 0,00 0,25 1,00 2,25 4,00 
+d em m 0,00 0,05 0,20 0,45 0,80  
+Esses valores são didáticos e seguem exatamente d = 0,20t². A proporcionalidade 
+exata não deve ser apresentada como resultado real de uma coleta sujeita a dispersão. 
+Item Resposta Comentário 
+4.1 Forma 
+original 
+B — Uma parábola, para aceleração 
+constante e partida do repouso. A equação de posição contém o termo quadrático (a/2)t². 
+4.2 Linearização A — Representar d em função de t². 
+Com velocidade inicial aproximadamente nula, a nova variável 
+t² produz uma relação linear. Para 𝑣0 não desprezível, essa 
+transformação simples exige outra análise. 
+4.3 Coeficiente C — 0,40 m/s². Comparando d = 0,20t² com d = (a/2)t², obtém-se a = 2 × 0,20 = 
+0,40 m/s². 

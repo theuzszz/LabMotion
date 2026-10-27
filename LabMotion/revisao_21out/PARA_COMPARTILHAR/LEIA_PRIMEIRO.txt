@@ -1,0 +1,24 @@
+﻿LABMOTION — ENTREGA DE 21 DE OUTUBRO DE 2026
+
+O relatório e o jogo estão prontos para avaliação e apresentação.
+Ainda não houve aplicação com alunos: os resultados do relatório são de desenvolvimento e verificação técnica.
+
+PARA A PROFESSORA
+Anexar Professora/LabMotion_Projeto_Final_21out.pdf e o arquivo Jogo/LabMotion.html, ou enviar este ZIP completo.
+
+PARA OS COLEGAS
+Anexar o ZIP completo como documento no WhatsApp ou por e-mail. Todos devem baixar e extrair.
+Na pasta Grupo estão o Word editável, os slides e o roteiro de falas.
+
+PARA APRESENTAR O JOGO
+1. Extraia o ZIP no computador.
+2. Abra Jogo e dê dois cliques em LabMotion.html para abrir no navegador.
+3. Abra os slides da pasta Grupo. Projete a janela ou compartilhe a tela.
+4. Demonstre uma questão, o feedback e a justificativa. Não é preciso concluir as cinco missões ao vivo.
+O jogo em HTML funciona sem internet e sem instalar programas ou entrar em uma conta.
+
+Envie o arquivo de verdade; um caminho C:/Users/... não abre no computador de outra pessoa.
+O site antigo é privado e pode estar em outra versão. A entrega atual é este pacote.
+
+O relatório incorpora os cinco comentários da professora e contém as seções completas exigidas.
+Confira CONFERENCIA_E_ENVIO.txt para a comparação com o arquivo do colega e mensagens prontas para copiar.

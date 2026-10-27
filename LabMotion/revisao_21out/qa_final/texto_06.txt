@@ -1,0 +1,32 @@
+6 
+feedbacks permitem revisá -las e a discussão final  retoma o raciocínio empregado. A atuação 
+do professor permanece necessária para analisar as respostas abertas e esclarecer dificuldades. 
+O percurso representado na Figura 1 relaciona cada missão a uma ação de investigação 
+guiada. Na primeira, a equipe com para leituras e distingue dispersão e incerteza. Na segunda, 
+avalia como os dados devem ser representados. Na terceira e na quarta, confronta as tabelas e 
+os gráficos com os modelos de MRU e MRUV, interpretando parâmetros e condições de uso. 
+Na quinta, reú ne uma afirmação, a evidência que a sustenta e a explicação física dessa 
+ligação. O registro de justificativas permite ao professor examinar o raciocínio que levou à 
+escolha, além do acerto da alternativa. 
+ 
+Figura 1 — Percurso conceitual das missões do LabMotion. Fonte: elaboração dos autores. 
+Trata-se de investigação guiada porque os dados, as alternativas e a sequência são 
+previamente definidos. O produto não oferece uma investigação aberta em que os 
+participantes planejam livremente um experimento e c oletam novas medidas. Dentro dessa 
+delimitação, a equipe precisa comparar interpretações, escolher um modelo, receber feedback 
+e rever sua resposta. O debriefing retoma as escolhas e pede que os participantes expliquem o 
+que os fez mudar de ideia. A argume ntação, assim, acompanha as missões e não aparece 
+apenas como um texto no encerramento. 
+2.3 Medidas e incertezas 
+Uma medição produz uma estimativa acompanhada de informação sobre sua incerteza. 
+A repetição das leituras permite avaliar a dispersão, enquanto  resolução, calibração e outras 
+informações do instrumento contribuem para a avaliação do tipo B. Tipo A e tipo B designam 
+formas de avaliação da incerteza, e não duas categorias universais de erro (JCGM, 2008). 
+Para N observações independentes da mesma grandeza, a média é: 
+𝑥 =
+1
+𝑁 ∑ 𝑥𝑖
+𝑁
+𝑖=1      (1) 
+Na Equação (1), 𝑥 é a média aritmética; 𝑥𝑖 é o valor da i -ésima observação; N é o 
+número total de observações; e i é o índice inteiro que percorre os valores de 1 a N. O símbolo 

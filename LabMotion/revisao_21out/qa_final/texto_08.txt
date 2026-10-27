@@ -1,0 +1,32 @@
+8 
+medida; 12 é um fator adimensional decorrente do modelo retangular. Outra informação 
+instrumental pode exigir outro modelo. A escrita (4,12 ± 0,01) cm do jogo é uma convenção 
+didática declarada para o exercício de apresenta ção; os cálculos completos e a comparação 
+com um modelo de resolução aparecem na seção 5. Não se confunde essa convenção com a 
+determinação metrológica única da incerteza-padrão. 
+Como exemplo complementar, distinto das dez leituras em centímetros utilizadas na 
+Missão 1, considerem-se cinco leituras hipotéticas de comprimento: 1,21 m; 1,23 m; 1,22 m; 
+1,24 m; e 1,20 m. A média é 1,220 m e o desvio -padrão amostral é aproximadamente 0,01581 
+m. A incerteza-padrão da média é 𝑢A = 0,01581/√5 ≈ 0,0071 m, evidenciando que a dispersão 
+das leituras e a incerteza da média são quantidades diferentes. 
+Supondo nesse exemplo um instrumento digital com resolução Δ = 0,01 m e somente a 
+contribuição de arredondamento ao valor mais próximo, 𝑢B = 0,005/√3 ≈ 0,0029 m. Com as 
+hipóteses da Equação (3), obtém-se 𝑢c ≈ 0,0076 m e a escrita arredondada (1,220 ± 0,008) m. 
+Esses números ilustram o uso das equações e não foram medidos pelo grupo. O conjunto é 
+complementar: não substitui os dados, as unidades ou o gabarito da missão original. 
+2.4 Representações gráficas e cinemática 
+Um gráfico científico precisa identificar as grandezas, suas unidades, a escala e os 
+dados utilizados. Pontos experimentais e curva de ajuste têm funções diferentes: os primeiros 
+apresentam as observações; a segunda expressa o modelo ajustado. A leitura deve relacionar 
+as representações verbal, matemática e gráfica. Klein et al. (2021) analisam objetivos de itens 
+do Test of Understandi ng Graphs in Kinematics a partir de movimentos oculares, 
+contribuindo para a discussão dessas relações. 
+No Movimento Retilíneo Uniforme, a velocidade é constante e a posição é descrita 
+por: 
+𝑥 = 𝑥0 + 𝑣𝑡     (4) 
+Na Equação (4), x é a posição do móvel no inst ante considerado e 𝑥0 é a posição 
+inicial, ambas em metros (m); v é a velocidade constante, em metros por segundo (m/s); e t é 
+o tempo transcorrido desde o instante de referência, em segundos (s). O produto vt é um 
+deslocamento e tem unidade de metro, compatível com os outros termos da expressão. 
+No gráfico de posição em função do tempo, a inclinação representa a velocidade e o 
+intercepto representa a posição inicial estimada. A unidade da inclinação é m/s quando a 

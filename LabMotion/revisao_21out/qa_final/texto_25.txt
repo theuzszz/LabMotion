@@ -1,0 +1,28 @@
+25 
+Unidade de análise do diagnóstico 
+No protocolo com um dispositivo por equipe, o diagnóstico registrado dentro do jogo é 
+uma resposta col etiva. O pré -teste e o pós -teste devem ser respondidos pela mesma equipe, 
+segundo as mesmas regras, e seu resultado é interpretado como desempenho da equipe. Não 
+converter uma única resposta coletiva em três ou quatro resultados individuais. 
+Para estudar m udança individual, cada participante responde aos seis itens em uma 
+folha identificada por código, antes e depois do jogo, sem conversar nessa etapa. O jogo 
+continua colaborativo, mas os resultados individuais provêm das folhas emparelhadas. O 
+preenchimento coletivo dentro do jogo não substitui essas respostas. Os códigos devem 
+permitir a associação entre os momentos sem exigir o nome completo do estudante. 
+Mediação durante o jogo 
+O mediador não deve revelar o gabarito durante o diagnóstico. Nas missões, de ve 
+incentivar a leitura das unidades e o uso dos dados para justificar a escolha. Quando houver 
+uma resposta incorreta, orientar a equipe a ler o feedback antes de tentar novamente. As pistas 
+apoiam a aprendizagem e não eliminam a equipe. Concluir uma miss ão exige uma 
+justificativa escrita; a existência do texto não assegura sua correção conceitual, que precisa ser 
+apreciada pelo mediador. 
+Debriefing 
+1. Qual resposta inicial a equipe mudaria agora e por quê? 
+2. Em qual missão um erro ajudou a compreender o conteúdo? 
+3. Que evidência permitiu diferenciar MRU e MRUV? 
+4. Por que um R² próximo de 1 não é suficiente para validar um modelo físico? 
+5. Como a incerteza modifica a linguagem de uma conclusão? 
+Solicitar ao menos duas sínteses. Retomar que o jogo trabal ha com interpretação de 
+dados já preparados e não substitui a coleta experimental nem a avaliação das condições do 
+laboratório. 
+  

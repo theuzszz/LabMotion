@@ -1,0 +1,20 @@
+19 
+5.3 Ajuste e interpretação do MRU 
+t em s 0,10 0,20 0,30 0,40 0,50 
+x em m 0,51 0,59 0,72 0,80 0,92 
+Valor ajustado em 
+m 0,502 0,605 0,708 0,811 0,914 
+Resíduo em m 0,008 −0,015 0,012 −0,011 0,006  
+O ajuste por mínimos quadrados ordinários fornece A = 1,03 m/s e B = 0,399 m. A 
+soma dos quadrados dos resíduos é 0,000590 m² e a soma dos quadrados em torno da média é 
+0,106680 m². Assim, R² = 1 − 0,000590/0,106680 =  0,994469, apresentado como 0,9945. 
+Esses resultados reproduzem a equação utilizada na Missão 3. 
+ 
+Figura 6 — Ajuste linear e resíduos do conjunto didático de MRU. Fonte: elaboração dos autores a partir dos 
+dados do jogo. 
+A inclinação é interpretada como velocidade e o intercepto como posição estimada em 
+t = 0. A tendência é compatível com MRU no contexto didático. Entretanto, os cinco pontos e 
+o R² elevado não permitem estimar todas as fontes de incerteza ou demonstrar a ausência de 
+outros efeitos. A figur a apresenta os resíduos para que a análise não se limite à aparência da 
+reta. Não foram atribuídas barras de incerteza sem informação instrumental que as 
+sustentasse. 

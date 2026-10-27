@@ -1,0 +1,73 @@
+{
+  "versao": "21 de outubro de 2026",
+  "pdf_paginas": 34,
+  "figuras": 7,
+  "equacoes_numeradas": 7,
+  "tabelas": 17,
+  "aplicacao_com_estudantes": false,
+  "revisao_visual": "Todas as 34 páginas; acabamento final nas páginas 1 e 31 verificado novamente",
+  "jogo_igual_ao_portatil_testado": true,
+  "recursos_html_externos": [],
+  "arquivos": [
+    {
+      "arquivo": "CONFERENCIA_E_ENVIO.md",
+      "bytes": 4763,
+      "sha256": "faf84b73fe23974fec6a20b94398e5ebcae9d9f6d8de3cebc1c67252be65824e"
+    },
+    {
+      "arquivo": "CONFERENCIA_E_ENVIO.txt",
+      "bytes": 4758,
+      "sha256": "b625cc5e0b40214afe23a0c2eb1f3d754ec035acb18dd7ea6076a3fd95f9e89b"
+    },
+    {
+      "arquivo": "Grupo/LabMotion_Apresentacao.pptx",
+      "bytes": 278621,
+      "sha256": "c34aae9cd901d5f33155264263a757b213a295b8ab6a71a5272230b6c1d3fc8c"
+    },
+    {
+      "arquivo": "Grupo/LabMotion_Projeto_Final_21out.docx",
+      "bytes": 686119,
+      "sha256": "85206c67c486b1975ca382889cd1411848ff2885a29884d6b1bef40ee7e4b6fb"
+    },
+    {
+      "arquivo": "Grupo/Roteiro_Apresentacao.md",
+      "bytes": 7632,
+      "sha256": "bd1642d0300dcc886dc78ec39c98bdf64f9c359ea198faf93d6cdf763a4ecdbf"
+    },
+    {
+      "arquivo": "Grupo/Roteiro_Apresentacao.txt",
+      "bytes": 7575,
+      "sha256": "d94bb0dce34e43cb68aef2108672441ecc3451a6f5bf719302fcf2581084a017"
+    },
+    {
+      "arquivo": "Jogo/LabMotion.html",
+      "bytes": 542070,
+      "sha256": "9985a811f19bf530ecbdc2bb11bec974714eb2d784e5e907b2d32ef432f13be9"
+    },
+    {
+      "arquivo": "Jogo/LEIA-ME.md",
+      "bytes": 1405,
+      "sha256": "36f6d8b2fa9619135cffbf25c41213fc7a9fc2108a87290aa1f9b8f26239776a"
+    },
+    {
+      "arquivo": "Jogo/LICENCA_FONTE_FREDOKA.txt",
+      "bytes": 4388,
+      "sha256": "5c9e7eee5c6b25f4b05b8d53b2e470ea4962f9ced742d044a98f7d95d1375bab"
+    },
+    {
+      "arquivo": "LEIA_PRIMEIRO.md",
+      "bytes": 2357,
+      "sha256": "d035c615d03e25b43eff146e10b240757f80156359badb1155f0a8d7bab70a74"
+    },
+    {
+      "arquivo": "LEIA_PRIMEIRO.txt",
+      "bytes": 1375,
+      "sha256": "97a4433a2f8769ea726bf76b2e8cbfbd6e3e354843b21f909213290c776fa28d"
+    },
+    {
+      "arquivo": "Professora/LabMotion_Projeto_Final_21out.pdf",
+      "bytes": 1463511,
+      "sha256": "1428e9bacf43959690f7001f8c726210b1b6da461f713da5f81688f61ff45477"
+    }
+  ]
+}

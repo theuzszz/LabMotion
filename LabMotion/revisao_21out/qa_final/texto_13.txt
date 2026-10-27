@@ -1,0 +1,13 @@
+13 
+Na revisão técnica foram corrigidos problemas de repetição da pontuação e perda de 
+registros. O progresso passou a ser preservado localmente no navegador. A síntese final 
+permite exportar os registros da sessão para arquivo JSON. O apl icativo não constitui um 
+sistema de matrícula, diário de classe ou base de dados central da turma. A exportação precisa 
+ser guardada pela equipe ou recolhida pela docente. 
+As imagens mostram a interface revisada em uma demonstração técnica, sem respostas 
+de uma turma. 
+ 
+Figura 2 — Abertura com narrativa e objetivo da investigação. Fonte: captura da versão local do LabMotion em 
+20 out. 2026. 
+O mapa orienta a sequência. As missões seguintes permanecem bloqueadas até que a 
+anterior seja concluída e justificada. 

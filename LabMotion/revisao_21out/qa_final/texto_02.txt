@@ -1,0 +1,20 @@
+2 
+RESUMO 
+Este trabalho apresenta o desenvolvimento do LabMotion, um escape room educacional 
+digital voltado à revisão de análise experimental e cinemática em Física Experimental A, na 
+UNIVASF. A narrativa propõe recuperar um relatório corrompido por meio de cinco missões 
+sobre medidas e incertezas, gráficos científicos, Movimento Retilíneo Uniforme, M ovimento 
+Retilíneo Uniformemente Variado e argumentação. O recurso utiliza desafios de múltipla 
+escolha, pistas graduais, feedback explicativo e registro de justificativas para promover 
+discussão em equipe e investigação guiada. A importância para a formaç ão em Engenharia 
+está na interpretação de dados, na escolha de modelos e na comunicação de conclusões 
+apoiadas em evidências. O produto foi implementado e submetido a verificações técnicas de 
+cálculos, progressão, preservação dos registros e exportação da sessão. A entrega inclui uma 
+versão portátil para navegador, roteiro de aplicação, gabaritos e instrumentos de avaliação. Os 
+resultados apresentados se referem ao desenvolvimento e ao teste do produto; os dados 
+numéricos são didáticos e não constituem uma coleta experimental do grupo. Ainda não 
+houve aplicação com estudantes. A avaliação pedagógica será realizada posteriormente com 
+diagnóstico de equipe, rubrica docente e discussão das limitações do procedimento. 
+Palavras-chave: Física experimental; escape room educacional; investigação guiada; 
+cinemática; argumentação. 
+  

@@ -1,0 +1,19 @@
+33 
+Apêndice G Registros e privacidade 
+Informar aos participantes a finalidade pedagógica dos registros, quem poderá acessá -
+los e o prazo de guarda definido pela instituição. Coletar apenas os dados necessários. Utiliz ar 
+códigos para equipes e participantes; evitar nome completo, documentos, endereço e 
+informações pessoais nos campos abertos. Em fotos e capturas, preservar a identidade dos 
+estudantes. 
+A versão revisada mantém a sessão no armazenamento local do navegador  e oferece 
+exportação em JSON na tela final. O registro reúne pré/pós -teste, pontuação, pistas, 
+justificativas das missões, limitação, conclusão CER e respostas do debriefing. A equipe deve 
+exportar antes de reiniciar, conferir se o arquivo foi salvo e ide ntificá-lo por código na pasta 
+definida para a atividade. Não há envio automático ao professor ou a uma planilha; a entrega é 
+realizada pelo procedimento combinado com o mediador. 
+O armazenamento local não substitui a cópia de acompanhamento e pode ser removido 
+ao limpar os dados do navegador. Em dispositivos compartilhados, exportar o registro 
+necessário e reiniciar a sessão antes da equipe seguinte. Em uma instalação antiga sem esses 
+recursos, utilizar a folha de registro e identificar a versão aplicad a; não afirmar que os 
+registros foram preservados automaticamente. 
+  

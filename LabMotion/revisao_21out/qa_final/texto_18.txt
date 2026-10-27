@@ -1,0 +1,33 @@
+18 
+4.8 Critérios de verificação técnica 
+Foram definidos como critérios: consistência dos dados e gabaritos; sequência das 
+missões; feedback após resposta; limite de duas pistas por missão; preservação dos registros; 
+ausência de ganho duplicado ao repetir ações; possibilidade de reinício consciente ; e geração 
+do arquivo de sessão. A verificação de interface inclui legibilidade e acesso às funções no 
+navegador. Esses critérios documentam funcionamento, sem equivaler a uma auditoria 
+completa de acessibilidade ou a um piloto pedagógico com estudantes. 
+5 Resultados e discussão 
+5.1 Produto desenvolvido 
+O resultado do desenvolvimento é uma aplicação navegável com cinco missões, 
+diagnóstico inicial, pós -teste, feedbacks, pistas e registro de justificativas. A sequência 
+conecta análise de medidas e gráficos à interpretação de modelos e à conclusão científica. As 
+capturas apresentadas em materiais e métodos documentam a versão local revisada em 20 de 
+outubro de 2026; os registros exibidos são de demonstração técnica. A versão portátil é 
+entregue em um arquivo HTML com estilos, scripts e fonte incorporados, que pode ser aberto 
+no navegador sem autenticação e sem conexão. 
+5.2 Cálculos da missão sobre medidas 
+Leitura 1 2 3 4 5 6 7 8 9 10 
+Comprimento em 
+cm 4,11 4,13 4,12 4,11 4,11 4,14 4,12 4,11 4,10 4,12 
+ 
+A soma das dez leituras é 41,17 cm. Aplicando a equação da média, obtém -se 4,117 
+cm, apresentada como 4,12 cm no exercício. O desvio -padrão amostral é aproximadamente 
+0,01160 cm, e a incerteza -padrão da média, calculada pela equação do tipo A, é 0,00367 cm. 
+Esses valores foram recalculados a partir das dez observações. 
+Se a contribuição instrumental for modelada apenas pelo arredondamento digital com 
+resolução Δ = 0,01 cm, obtém-se 𝑢B = 0,00289 cm e 𝑢c = 0,00467 cm. Já a adoção didática de 
+𝑢B = 0,01 cm resulta em 𝑢c = 0,01065 cm, que pode ser apresentada como 0,01 cm conforme 
+o arredondamento utilizado no exercício. A comparação mostra por que o modelo 
+instrumental precisa ser informado. O objetivo da pergunta final é reconhecer a escrita 
+coerente (4,12 ± 0,01 ) cm sob a convenção declarada, e não inferir automaticamente a 
+incerteza a partir da resolução. 

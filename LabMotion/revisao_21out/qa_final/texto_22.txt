@@ -1,0 +1,25 @@
+22 
+Até esta versão, não houve aplicação com estudantes, coleta de pré e pós-testes de uma 
+turma ou questionário de experiência. Consequentemente, não são apresentados percentuais 
+de satisfação, ganhos de aprendizagem ou tempos observados de uma turma. Os resultados 
+demonstrados são o desenvolvimento do artefato, a coerência dos cálculos e a verificação 
+técnica documentada. O instrumento está preparado para que a primeira aplicação produza os 
+dados necessários à avaliação pedagógica. 
+6 Conclusões 
+Foi desenvolvido o LabMotion, um produto educacional digital para revisão de 
+medidas, gráficos e cinemática em Física Experimental A. As cinco missões conectam 
+identificação de fontes de incerteza, leitura de representações, interpretação de velocidade e 
+aceleração e elaboração de uma conclusão apoiada em evidências. O roteiro e o gabarito 
+permitem à docente acompanhar tanto as respostas quanto as justificativas das equipes. 
+Os exemplos numéricos foram verificados: a média do comprimento é 4,117 cm; o 
+ajuste do MRU fornece velocidade de 1,03 m/s, posição inicial estimada de 0,399 m e R² 
+aproximado de 0,9945; a linearização do MRUV idealizado fornece aceleração de 0,40 m/s². 
+A explicitação das convenções de incerteza e das condições de linearização evita tratar 
+simplificações didáticas como regras universais. 
+A versão revisada acrescenta preservação de progresso e registros, exportação da 
+sessão e proteção contra po ntuação duplicada. A verificação técnica atende ao objetivo de 
+preparar o produto para demonstração e avaliação da professora. A eficácia na aprendizagem 
+permanece como questão para a aplicação: deverá ser examinada com os instrumentos 
+propostos, considera ndo conhecimento prévio, participação, intervenções e limitações do 
+diagnóstico de equipe. 
+  

@@ -1,0 +1,33 @@
+12 
+sessão por equipe. Um diagnóstico individual, quando desejado, deve ser aplicado em folha 
+ou formulário separado, conforme o Apêndice C. 
+4.2 Materiais utilizados e requisitos de acesso 
+Material ou recurso Utilização 
+Computador de desenvolvimento Edição, execução e verificação do aplicativo 
+React e TypeScript Construção da interface e das regras de interação 
+Vite e vinext Execução e empacotamento da aplicação web 
+HTML CSS e SVG Textos, componentes, tabelas e representação gráfica 
+Navegador atualizado Acesso ao jogo e execução dos testes de uso 
+Computador ou celular por equipe Participação na atividade 
+Projetor ou tela compartilhada Apresentação e discussão coletiva 
+Roteiros das aulas e contrato didático Delimitação dos conteúdos e da estrutura do projeto 
+Folha de registro e rubrica Avaliação docente das justificativas e da colaboração 
+Biblioteca NumPy e gráficos em 
+Matplotlib Recálculo dos exemplos e elaboração das figuras científicas do relatório 
+ 
+O jogo trabalha com dados previamente definidos. Não foi necessário montar um 
+trilho de ar ou medir um corpo durante o desenvolvimento digital. Os exemplos representam 
+situações relacionadas às aulas; a possibilidade de aplicá -los após um experimento físico 
+depende do planejamento da docente. O formato digital não substitui o treinamento com 
+instrumentos e procedimentos de laboratório. 
+4.3 Construção do produto 
+Primeiramente foram selecionadas as habilidades de interpretação presentes nos 
+materiais da disciplina. Cada habilidade foi associada a uma missão e a perguntas com 
+alternativas plausíveis. A narrativa de um relatório corrompido deu continuidade às etap as. 
+Para cada questão foram definidos resposta, explicação do acerto, orientação em caso de erro 
+e duas pistas graduais. 
+A interface apresenta textos curtos, botões de resposta e cartões com dados. O mapa 
+mostra a progressão; as etapas seguintes são libera das após o cumprimento das anteriores. Ao 
+terminar uma missão, a equipe registra uma justificativa. A quinta missão solicita uma 
+limitação experimental e uma conclusão. O professor pode utilizar o conjunto dessas 
+produções para avaliar o raciocínio, além do número de acertos. 

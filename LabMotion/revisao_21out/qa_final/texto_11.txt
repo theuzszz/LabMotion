@@ -1,0 +1,29 @@
+11 
+origem ou validação específica da rubrica do jogo. A verificação  automática de texto apenas 
+identifica elementos estruturais; a avaliação da correção conceitual depende da leitura 
+docente. 
+3 Objetivos 
+3.1 Objetivo geral 
+Desenvolver um produto educacional digital para apoiar a interpretação de dados 
+experimentais e a el aboração de conclusões físicas fundamentadas em atividades de revisão 
+de Física Experimental A. 
+3.2 Objetivos específicos 
+ Organizar cinco missões com desafios, pistas, feedbacks e registro de justificativas. 
+ Trabalhar média, fontes de incerteza, qualidade dos gráficos, MRU, MRUV e limites do 
+ajuste estatístico. 
+ Relacionar inclinação e intercepto às grandezas físicas e linearizar um conjunto didático 
+de MRUV com partida do repouso. 
+ Solicitar conclusões que conectem modelo, evidência numérica e raciocínio físico. 
+ Disponibilizar um roteiro de aplicação, gabarito e instrumentos de avaliação. 
+ Verificar cálculos, navegação, regras de pontuação e preservação dos registros antes da 
+apresentação. 
+4 Materiais e métodos 
+4.1 Natureza do desenvolvimento 
+O trabalho é um d esenvolvimento de produto educacional com verificação técnica e 
+análise de conjuntos didáticos. O público previsto é a turma de Física Experimental A. A 
+atividade foi planejada para equipes de três ou quatro estudantes, com duração total de 
+aproximadamente 60 minutos. Essa organização de participantes se refere ao uso do jogo, não 
+ao limite de autores estabelecido pela disciplina. 
+A versão final utiliza uma aplicação web própria, com interface em português. A 
+sequência foi organizada em apresentação, instruções, diagnóstico inicial da equipe, mapa das 
+cinco missões, discussão final, pós -teste e síntese dos resultados. O aplicativo registra uma 

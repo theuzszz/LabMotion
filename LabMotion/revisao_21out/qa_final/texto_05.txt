@@ -1,0 +1,32 @@
+5 
+Historicamente, parte do trabalho de laboratório foi organizada como verificação de 
+leis já apresentadas em aula. Trumper (2002) discute a necessidade de ampliar essa prática 
+para desenvolver a compreensão dos métodos de investigação e do significado dos resu ltados. 
+As recomendações da AAPT (2014) incluem modelagem, planejamento experimental, análise 
+e visualização de dados e comunicação. Nesse contexto, uma atividade digital pode servir à 
+preparação e à revisão do laboratório quando exige decisões sobre evidê ncias e permite 
+explicá-las. 
+Um escape room educacional é uma atividade em que os participantes resolvem 
+desafios conectados por uma narrativa para atingir um objetivo comum. No formato digital, as 
+respostas liberam etapas e permitem acompanhar o percurso da equipe. O objetivo do 
+LabMotion é recuperar partes de um relatório experimental corrompido; a conclusão da 
+história depende da interpretação de dados de Física. Escolheu -se esse formato para reunir 
+colaboração, decisões justificadas e revisão após o err o em uma sequência com continuidade. 
+A opção por análise experimental e cinemática decorre da presença desses conteúdos em 
+Física Experimental A e da oportunidade de trabalhar dificuldades de interpretação que 
+permanecem ocultas quando a tarefa exige apenas substituir valores em uma fórmula. 
+O LabMotion aborda esse problema com cinco missões. A equipe deve recuperar uma 
+medida confiável, corrigir um gráfico, interpretar velocidade e aceleração e produzir uma 
+conclusão fundamentada. As missões acompanham as etapas medir, representar, modelar, 
+interpretar e argumentar. Os conjuntos numéricos são usados como exemplos didáticos; sua 
+análise não representa uma nova coleta experimental realizada pelos autores. 
+2.2 Aprendizagem ativa e investigação 
+Freeman et al. ( 2014) reuniram evidências de melhoria de desempenho em cursos 
+superiores STEM com aprendizagem ativa. Esse resultado fundamenta a escolha de tarefas em 
+que os estudantes discutem, interpretam e justificam, mas não permite antecipar um ganho 
+específico para  o LabMotion. O efeito de um recurso depende também da mediação, do 
+conhecimento prévio e do tempo de trabalho. 
+Sasseron (2015) relaciona alfabetização científica, investigação e argumentação: o 
+estudante precisa trabalhar com evidências, avaliar possibili dades e comunicar explicações. 
+Moreira (2011) destaca a participação do aluno e a articulação com conhecimentos prévios. 
+No produto, o diagnóstico inicial torna visíveis algumas interpretações da equipe, os 

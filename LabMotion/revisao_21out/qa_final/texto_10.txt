@@ -1,0 +1,37 @@
+10 
+𝑅2 = 1 −
+∑ (𝑥𝑖−𝑥̂𝑖)2𝑁
+𝑖=1
+∑ (𝑥𝑖−𝑥)2𝑁
+𝑖=1
+     (7) 
+Na Equação (7), R² é o coeficiente de determinação, adimensional. 𝑥𝑖 é a posição 
+observada no par de índice i, 𝑥̂𝑖 é a posição prevista pela reta para o mesmo tempo 𝑡𝑖, dada 
+por 𝑥̂𝑖 = A 𝑡𝑖 + B, e 𝑥 é a média das posições observadas, todas em metros (m). A é a 
+inclinação do ajuste em m/s, B é seu intercepto em m e 𝑡𝑖 é o tempo em segundos. N é o 
+número de pares, i percorre os valores de 1 a N e ∑ representa a soma nesse intervalo. O 
+resíduo 𝑥𝑖 − 𝑥̂𝑖 e o desvio 𝑥𝑖 − 𝑥 têm unidade de metro; as duas somas de quadrados têm 
+unidade de m², que se cancela na razão. O fator 1 é adimensional. Essa forma de R² pressupõe 
+que a variabilidade das posições em torno da média seja diferente de zero. 
+O coeficiente de determinação R² compara a soma dos quadrados dos resíduos com a 
+variabilidade dos valores de posição em torno da média. Um R² elevado indica bom ajuste 
+nesse sentido estatístico; não verifica sozinho as unidades, o mecanismo físico, a qualidade 
+dos instrumentos nem as hipóteses experimentais. O jogo solicita uma linguagem 
+proporcional à evidência, como “os dados são compatíveis com o modelo”. 
+2.5 Jogos educacionais e feedback 
+Wang et al. (2022) encontraram efeito positivo médio de jogos digitais sob re 
+aprendizagem em STEM em uma meta -análise com 33 estudos e 3.894 participantes. Sailer e 
+Homner (2020) também identificam potencial da gamificação, condicionado ao desenho da 
+atividade. Esses estudos justificam investigar o formato, mas não substituem a avaliação do 
+produto desenvolvido. 
+Um escape room educacional articula narrativa, objetivo comum e desafios 
+relacionados. A revisão de Veldkamp et al. (2020) ressalta o alinhamento entre enigmas e 
+objetivos educacionais e a necessidade de distinguir satisf ação de aprendizagem. No 
+LabMotion, a progressão exige interpretar conceitos da disciplina, com pistas e novas 
+tentativas. A rapidez não integra a pontuação. 
+Hattie e Timperley (2007) discutem o feedback que orienta o estudante sobre a tarefa e 
+os próximos passos. Por isso, as respostas incorretas recebem uma explicação conceitual. A 
+missão final organiza a conclusão em afirmação, evidência e raciocínio, estratégia didática 
+adotada no LabMotion para tornar explícita a ligação entre os dados e a conclusão. A  leitura 
+docente das justificativas se apoia na discussão de Sampson e Clark (2008) sobre estrutura, 
+justificação e conteúdo dos argumentos científicos. Essa referência não é apresentada como 
