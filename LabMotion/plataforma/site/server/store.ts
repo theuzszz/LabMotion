@@ -1,7 +1,7 @@
 import { ApiError, hash, now, stable } from './security.ts';
 import { initialState, applyAction, publicContent, VERSION, type Action, type State } from './game.ts';
 export type DB = Pick<D1Database,'prepare'|'batch'>;
-export type Actor = {id:string;role:'student'|'teacher'|'admin';nickname?:string;classId?:string;email?:string};
+export type Actor = {id:string;role:'student'|'teacher'|'admin';nickname?:string;classId?:string;email?:string;mustChangePassword?:boolean};
 export type GameRow = {id:string;student_id:string;class_id:string;content_version:string;state:string;revision:number;created_at:string;completed_at:string|null;conditions:string;participants:number;mode:string};
 export const all = async <T = Record<string,unknown>>(db: DB, sql: string, ...args: unknown[]) => (await db.prepare(sql).bind(...args).all<T>()).results;
 export const one = <T = Record<string,unknown>>(db: DB, sql: string, ...args: unknown[]) => db.prepare(sql).bind(...args).first<T>();

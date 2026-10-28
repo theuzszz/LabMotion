@@ -1,5 +1,6 @@
 import { ApiError, checkOrigin, code, cookie, csv, eventKey, hash, id, nickname, normalizeCode, now, sessionCookie, str, integer } from './security.ts';
-import { actorFor, exchange, magicLink, session, throttle, type Settings } from './auth.ts';
+import { actorFor, bootstrap, changePassword, passwordLogin, emailAddress, session, throttle, type Settings } from './auth.ts';
+import {passwordHash} from './passwords.ts';
 import { all, one, audit, createGame, gameView, getGame, mutateGame, requireClass, type Actor, type DB, type GameRow } from './store.ts';
 import { VERSION, type Action, type State } from './game.ts';
 
@@ -46,7 +47,7 @@ export async function handleApi(request:Request,db:DB,settings:Settings={},fetch
       if (!body || typeof body!=='object' || Array.isArray(body)) throw new ApiError(400,'Registro inválido.');
     }
     if (hasPath(path,'health')&&method==='GET') {
-      await one(db,'SELECT 1 AS ok'); return json({ok:true,contentVersion:VERSION,dataLabel:'Dados didáticos',adultAuthConfigured:!!settings.SUPABASE_URL&&!!settings.SUPABASE_ANON_KEY});
+      await one(db,'SELECT 1 AS ok'); return json({ok:true,contentVersion:VERSION,dataLabel:'Dados didáticos',adultAuthConfigured:true,adminConfigured:!!await one(db,"SELECT key FROM configuracao WHERE key='admin_created'")});
     }
     // Restricted to an ephemeral secret and an isolated infrastructure-only table.
     if (hasPath(path,'infra-probe')&&method==='POST') {
@@ -55,10 +56,11 @@ export async function handleApi(request:Request,db:DB,settings:Settings={},fetch
       await db.prepare('INSERT INTO infra_probes(id,created_at) VALUES(?,?) ON CONFLICT(id) DO NOTHING').bind(key,now()).run();
       const row=await one(db,'SELECT id,created_at FROM infra_probes WHERE id=?',key);
       const total=await one<{n:number}>(db,'SELECT COUNT(*) AS n FROM infra_probes WHERE id=?',key);
-      return json({persisted:!!row,count:total?.n});
+      const encoded=await passwordHash('Teste de infraestrutura fictício 2026');
+      return json({persisted:!!row,count:total?.n,passwordHashSupported:encoded.startsWith('scrypt$')});
     }
-    if (hasPath(path,'auth','magic')&&method==='POST') { const r=await magicLink(db,request,settings,body.email,fetcher);return json({message:r.message},200,{'set-cookie':r.cookie}); }
-    if (hasPath(path,'auth','exchange')&&method==='POST') { const r=await exchange(db,request,settings,body.code,fetcher);return json({actor:r.actor},200,{'set-cookie':r.cookie}); }
+    if (hasPath(path,'auth','password')&&method==='POST') {const r=await passwordLogin(db,request,body.email,body.password);return json({actor:r.actor},200,{'set-cookie':r.cookie});}
+    if (hasPath(path,'auth','setup')&&method==='POST') {const r=await bootstrap(db,request,settings,body);return json({actor:r.actor},200,{'set-cookie':r.cookie});}
     if (hasPath(path,'auth','student')&&method==='POST') {
       await throttle(db,request,'student',12);
       const invite=await one<{class_id:string}>(db,'SELECT i.class_id FROM convites_turma i JOIN turmas t ON t.id=i.class_id WHERE i.code_hash=? AND i.revoked_at IS NULL AND t.archived=0',await hash(normalizeCode(str(body.classCode,'Código de turma',10,200))));
@@ -86,6 +88,8 @@ export async function handleApi(request:Request,db:DB,settings:Settings={},fetch
       const token=cookie(request,'lm_session');if(token) await db.prepare('DELETE FROM sessoes_auth WHERE token_hash=?').bind(await hash(token)).run();
       return json({ok:true},200,{'set-cookie':sessionCookie(request,'',0)});
     }
+    if(hasPath(path,'auth','change-password')&&method==='POST'){requireActor(actor,['teacher','admin']);return json({ok:true},200,{'set-cookie':await changePassword(db,request,actor,body)});}
+    if(actor?.mustChangePassword)throw new ApiError(403,'Troque a senha temporária antes de acessar as turmas.');
     if (hasPath(path,'me','nickname')&&method==='POST') {requireActor(actor,['student']);await db.prepare('UPDATE alunos SET nickname=? WHERE id=?').bind(nickname(body.nickname),actor.id).run();return json({ok:true});}
     if (hasPath(path,'me','summary')&&method==='GET') {
       requireActor(actor,['student']);
@@ -159,7 +163,14 @@ export async function handleApi(request:Request,db:DB,settings:Settings={},fetch
     if (hasPath(path,'admin','teachers')&&method==='POST') {
       admin(actor);const email=str(body.email,'E-mail docente',3,254).toLowerCase();if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email))throw new ApiError(400,'E-mail inválido.');
       if(email===actor.email&&body.active===false)throw new ApiError(400,'Você não pode desativar sua própria conta.');
-      await db.prepare("INSERT INTO professores(id,email,role,active,created_at) VALUES(?,?,'teacher',?,?) ON CONFLICT(email) DO UPDATE SET active=excluded.active").bind(id(),email,body.active===false?0:1,now()).run();await audit(db,actor,'teacher_updated',email);return json({ok:true});
+      const existing=await one<{id:string;role:string}>(db,'SELECT id,role FROM professores WHERE email=?',email);
+      if(existing?.role==='admin')throw new ApiError(400,'Use a troca de senha da própria conta para alterar o administrador.');
+      if(body.active===false){if(existing)await db.batch([db.prepare('UPDATE professores SET active=0 WHERE id=?').bind(existing.id),db.prepare('DELETE FROM sessoes_auth WHERE actor_id=?').bind(existing.id)]);await audit(db,actor,'teacher_deactivated',existing?.id??email);return json({ok:true});}
+      const temporaryPassword=code(8),encoded=await passwordHash(temporaryPassword),teacherId=existing?.id??id();
+      await db.batch([
+        db.prepare("INSERT INTO professores(id,email,role,active,created_at,password_hash,must_change_password) VALUES(?,?,'teacher',1,?,?,1) ON CONFLICT(email) DO UPDATE SET password_hash=excluded.password_hash,active=1,must_change_password=1").bind(teacherId,email,now(),encoded),
+        db.prepare('DELETE FROM sessoes_auth WHERE actor_id=?').bind(teacherId),
+      ]);await audit(db,actor,'teacher_password_reset',teacherId);return json({ok:true,temporaryPassword,showOnce:true});
     }
     if (hasPath(path,'admin','overview')&&method==='GET') {
       admin(actor);await audit(db,actor,'admin_overview_read','all');

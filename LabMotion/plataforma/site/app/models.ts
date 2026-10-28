@@ -1,0 +1,14 @@
+import type {State,Action} from '../server/game';
+export type {State,Action};
+export type Actor={id:string;role:'student'|'teacher'|'admin';nickname?:string;email?:string;classId?:string;mustChangePassword?:boolean};
+export type Game={id:string;revision:number;createdAt:string;completedAt:string|null;conditions:string;contentVersion:string;state:State;challenge:null|{id:string;label:string;prompt:string;options?:string[];kind:string;placeholder?:string};diagnostic:null|{id:string;prompt:string;options:string[];index:number};mission:{index:number;title:string;short:string;subtitle:string};missions:{title:string;short:string}[];results:null|{item:number;subject:string;before:boolean;after:boolean}[]};
+export type Subject={subject:string;firstCorrect:number;attempted:number};
+export type Evolution={gameId:string;date:string;completed:number;phase:string;points:number;pre:number[];post:number[];finished:boolean};
+export type StudentReport={studentId:string;nickname:string;completedActivities:number;bySubject:Subject[];hints:number;evolution:Evolution[]};
+export type Summary={games:Game[];bySubject:Subject[];completedActivities:number;hints:number;imports:{id:string;created_at:string;origin:string}[];reviews:{kind:string;mission:number;rubric:string;comment:string}[]};
+export type TextRecord={id:string;game_id:string;student_id:string;kind:string;mission:number;body:string;nickname:string;rubric:string|null;comment:string|null;version:number|null;reviewed_at:string|null};
+export type ItemRecord={studentId:string;nickname:string;gameId:string;itemId:string;attempts:number;errors:number;firstCorrect:boolean;structural:boolean;hints:number;elapsedMs:number};
+export type Report={students:StudentReport[];games:Game[];bySubject:Subject[];items:ItemRecord[];texts:TextRecord[];hints:number};
+export type ClassRecord={id:string;title:string;teacher_email:string;teacher_id:string};
+export type Teacher={id:string;email:string;role:string;active:number};
+export type Overview={counts:{classes:number;students:number;games:number;completed:number;meanDurationSeconds:number|null};hints:{n:number};wrongItems:{item_id:string;attempts:number;errors:number}[];byDate:{date:string;games:number}[]};

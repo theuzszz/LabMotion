@@ -4,6 +4,7 @@ import { sql } from 'drizzle-orm';
 export const professores = sqliteTable('professores', {
   id: text('id').primaryKey(), email: text('email').notNull(), role: text('role').notNull().default('teacher'),
   active: integer('active').notNull().default(1), createdAt: text('created_at').notNull(),
+  passwordHash: text('password_hash'), mustChangePassword: integer('must_change_password').notNull().default(0),
 }, t => [uniqueIndex('professores_email').on(t.email), check('professores_role', sql`${t.role} IN ('teacher','admin')`)]);
 export const turmas = sqliteTable('turmas', {
   id: text('id').primaryKey(), teacherId: text('teacher_id').notNull().references(() => professores.id),
@@ -32,3 +33,4 @@ export const auditoria = sqliteTable('auditoria', {
   id: text('id').primaryKey(), actorId: text('actor_id').notNull(), action: text('action').notNull(),
   targetId: text('target_id').notNull(), at: text('at').notNull(),
 }, t => [index('auditoria_data').on(t.at)]);
+export const configuracao=sqliteTable('configuracao',{key:text('key').primaryKey(),value:text('value').notNull()});
